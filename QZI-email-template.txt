@@ -1,0 +1,42 @@
+QZI LABS — PLAIN-TEXT FALLBACK (send as Gmail `body` alongside the HTML)
+
+Critical: keep each portfolio URL on its own line UNDER its own label, with a blank
+line between the two blocks. Two bare URLs on adjacent lines is what caused the
+unreadable blue blob on mobile.
+
+---
+
+Hi {{GREETING}},
+
+{{PERSONALISED_OPENING}}
+
+I make short cinematic fragrance ads built from product photos, so there's no shoot to
+arrange, no studio and no crew. Direction, editing, music and sound design are handled on
+my side, and you get a finished commercial cut for Reels, paid social or the site.
+
+{{OPTIONAL_SECOND_HOOK}}
+
+A complete ad is $80 at the moment.
+
+Two examples of ads I've made:
+
+Portfolio video 1:
+https://drive.google.com/file/d/17eU7R927-rh3bQoHsgJQIcp0nRV0fri7/view?usp=sharing
+
+Portfolio video 2:
+https://drive.google.com/file/d/1GUeu4DZyHLVjLlrFaSwLcj1Un4DHGu6s/view?usp=sharing
+
+{{SIMPLE_CTA}}
+
+ALI
+-QZI Labs
+
+If you'd rather not hear from me again, just reply "no thanks" and I won't follow up.
+
+---
+
+WHY NOT ATTACH THE VIDEOS
+Portfolio Video-1.mp4 is 36.7 MB and Portfolio Video-2.mp4 is 69.2 MB. Gmail's hard limit
+is 25 MB combined, so direct attachment is impossible for the originals. Compressed copies
+exist in email-assets/ (6.7 MB and 6.3 MB) and would fit, but attachments on unsolicited
+first-contact email raise spam-filter risk sharply. Drive links are the right call.
