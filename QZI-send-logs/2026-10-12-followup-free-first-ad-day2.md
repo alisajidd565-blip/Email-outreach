@@ -69,3 +69,4 @@ Before sending, checked: no replies in the original threads, no separate-thread 
 ## Replies
 - 2026-10-12 03:07 UTC, Montevela Parfums (montevelaparfums@gmail.com, Mexico, bottles MXN 2,800-3,200): "Y que precio tienen tus videos?" Replied in Spanish at 03:10 UTC: first video free with no advance, then 150 USD per video or 400 USD for 3; 4K, 15-30s, Reels/TikTok/ads formats, original music, 2 revision rounds; asked for 3-4 product photos; delivery 5-7 days after photos. NEXT: wait for photos, then deliver on time.
 - 2026-10-12 ~03:15 UTC: sent follow-up (approved by Ali) offering a weekly/monthly arrangement priced to their budget.
+- 2026-10-12: sent Montevela the price card (Spanish) per Ali's instruction; see QZI-price-card.md.
