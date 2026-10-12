@@ -12,3 +12,8 @@
 - First ad free, no advance.
 - Group deal: client shares a budget, we combine formats into a bundle price.
 - Note: Ali's message said "159" for the 20-25s ad; used 150 to match the attached samples and the earlier Montevela quote. Confirm.
+
+## Samples (as of 12 Oct 2026)
+- The Beast, Maison Yusif: https://www.instagram.com/reel/Dd6mWo6CuaY/
+- Bad Influence, Maison Yusif (4K): https://drive.google.com/file/d/1D-zRFkKo6c-Q05LTnpY1a-5clBHbW9AC/view?usp=sharing
+- Cafe Kiss (client work, 4K): https://drive.google.com/file/d/1ROFVkQe0Y34LkfjyrEI3uDwHumzDV4IZ/view?usp=sharing
