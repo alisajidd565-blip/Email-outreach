@@ -112,7 +112,13 @@ Per email, apply every rule from OUTREACH-BRIEF.md's FORMAT RULES section:
 - Sign off as "— Ali, QZI Labs". Opt-out goes after the signature as a P.S.:
   "P.S. If you'd rather not receive messages like this, reply "unsubscribe"
   and I won't follow up." (Corrected 2026-09-22.)
-- No price, or "very affordable" with no number, per the 80/20 split.
+- THE OFFER, in every email (updated 2026-10-13): first ad with no advance,
+  made in their own style from their product photos; if they like it, we
+  move forward. Use the standard line from OUTREACH-BRIEF.md ("your first ad
+  is on us ... No advance, nothing to pay ... short ads starting at just
+  $30"). "From $30" is the only number allowed.
+- Samples: The Beast (IG reel), Bad Influence (Drive 4K) and Café Kiss
+  (client work), each described as made in that brand's own style.
 - Fiverr as one low-key closing line, never the pitch itself.
 - No em dashes. Vary structure — don't reuse the last email's shape.
 - Different subject line every time.

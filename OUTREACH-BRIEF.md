@@ -38,12 +38,24 @@ Perfume / fragrance brands, and beard care / men's grooming brands. Only these
 two. If asked for "a different kind of email," that means vary the style or
 structure, not the target category.
 
-PRICING (single live Fiverr gig): $150 / $250 / $500.
-NEVER put a dollar figure in a cold outreach email. Across a batch of emails:
-about 80% mention price not at all; the other 20% may say "it's very affordable"
-with no number attached, ever. The only place a prospect should see an actual
-price is the Fiverr gig page itself, so the email and the gig can never
-contradict each other.
+THE OFFER (updated 2026-10-13, overrides the old no-price rule below)
+EVERY email (cold, follow-up, WhatsApp, Instagram DM) must carry this offer:
+- The first ad is made with NO ADVANCE. The brand pays nothing up front.
+- It is made in the brand's OWN style, from their product photos.
+- If they like it, we move forward. If not, they owe nothing.
+- The samples are each made in the style of the brand they were made for.
+Standard line for cold emails:
+  "Here's my offer: your first ad is on us, made in {Brand}'s style from your
+  product photos. No advance, nothing to pay. If you like it, we move forward,
+  with short ads starting at just $30."
+For a warm lead who has already asked for an invoice (e.g. Mona at Kierin),
+use: "I'll make it first, with no advance. You only pay if you like it and
+use it."
+The only number allowed in a cold email is "from $30". Full prices live in
+QZI-price-card.md and are sent only when a brand asks.
+
+OLD PRICING RULE (kept for history, superseded by THE OFFER above):
+Fiverr gig $150 / $250 / $500. Never put a dollar figure in a cold email.
 Exception: the Velara pitch (see PORTFOLIO below) explicitly leads with price
 and AI — that is a deliberate one-off, not the general rule.
 
