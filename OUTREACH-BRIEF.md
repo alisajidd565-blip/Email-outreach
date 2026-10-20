@@ -54,6 +54,28 @@ SAMPLES FOR COLD EMAILS (each made in that client's own style; use these three)
 Do NOT include Cafe Kiss in cold emails (removed 2026-10-21 at Ali's request).
 Do not name a client for Vanille unless Ali confirms who it was made for.
 
+PERSONALISATION RULE (from 2026-10-21, Ali): every email is highly
+personalised and quotes the brand's own social media numbers.
+Research per prospect before writing (deep, not one line):
+- Website: hero products, newest launch, founder/story, price level, country.
+- Instagram: follower count, and average likes + comments on the last 12
+  posts -> engagement rate = (avg likes + avg comments) / followers.
+  Also note posting frequency and whether they post video/Reels at all.
+  "Reach" is private (only the account owner sees it), so never claim to know
+  their reach. Use engagement rate as the public proxy and say "engagement".
+- Thresholds: followers "good" = 5,000+. Engagement "low" = under 1%.
+Which line to use:
+1. Good followers, low engagement: "You have {N} followers, but posts average
+   about {L} likes ({E}% engagement). The audience is there; the content isn't
+   reaching it. We create ads that generate leads and engagement."
+2. Low followers and low engagement: "You have {N} followers and posts average
+   about {L} likes. We create ads that generate leads and engagement."
+3. Good followers and good engagement (not covered by Ali's rule yet; ask Ali
+   before using): compliment the engagement, pitch ads that turn it into sales.
+Say it politely, as an observation, never as an insult. Numbers must be real
+and from the last few days; never estimate or invent them. If the numbers
+cannot be fetched, do not send that email.
+
 COLD EMAIL TEMPLATE (2026-10-21)
   Hey {Brand} team,
   {One true line about the brand, from their own site.}
