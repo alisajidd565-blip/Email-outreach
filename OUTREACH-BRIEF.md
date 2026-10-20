@@ -38,7 +38,32 @@ Perfume / fragrance brands, and beard care / men's grooming brands. Only these
 two. If asked for "a different kind of email," that means vary the style or
 structure, not the target category.
 
-THE OFFER (updated 2026-10-13, overrides the old no-price rule below)
+WHAT WE SELL (updated 2026-10-20, Ali's wording)
+We manage social media content for brands so their online presence brings
+maximum results: cinematic ads made in each brand's own style/theme, content
+that makes the brand prominent, and Meta ads that bring in more business.
+Every cold email says this in one or two plain sentences before the samples.
+
+SAMPLES (each made in that client's own style; use all four in cold emails)
+- The Beast, for Maison Yusif (live IG reel): https://www.instagram.com/reel/Dd6mWo6CuaY/
+- Vanille (4K, Drive): https://drive.google.com/file/d/1wNZjvnKGVg6ttQMnZODXULhu4b6EHI2R/view?usp=sharing
+- Bad Influence, for Maison Yusif (4K, Drive): https://drive.google.com/file/d/1D-zRFkKo6c-Q05LTnpY1a-5clBHbW9AC/view?usp=sharing
+- Cafe Kiss, client work for Kierin (Drive): https://drive.google.com/file/d/1ROFVkQe0Y34LkfjyrEI3uDwHumzDV4IZ/view?usp=sharing
+Do not name a client for Vanille unless Ali confirms who it was made for.
+
+FIRST-AD OFFER: SPLIT EVERY BATCH 50/50 (from 2026-10-20)
+- Version A (half the batch): "Here's my offer: your first ad is free, made in
+  {Brand}'s style from your product photos. If you like what we make for your
+  brand, we can talk about the future."
+- Version B (other half): "Here's my offer: zero advance and no obligation. We
+  prepare your first ad in {Brand}'s style from your product photos. If you
+  like it, we talk about an arrangement and how to make {Brand}'s image
+  stronger online. A strong social media presence isn't optional anymore, and
+  we'll make sure yours is."
+Alternate A/B down the send list and record the version in the send log, so
+reply rates can be compared after 2 to 3 batches.
+
+THE OFFER (2026-10-13 version, still valid for warm leads)
 EVERY email (cold, follow-up, WhatsApp, Instagram DM) must carry this offer:
 - The first ad is made with NO ADVANCE. The brand pays nothing up front.
 - It is made in the brand's OWN style, from their product photos.

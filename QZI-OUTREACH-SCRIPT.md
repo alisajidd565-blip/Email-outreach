@@ -117,8 +117,14 @@ Per email, apply every rule from OUTREACH-BRIEF.md's FORMAT RULES section:
   move forward. Use the standard line from OUTREACH-BRIEF.md ("your first ad
   is on us ... No advance, nothing to pay ... short ads starting at just
   $30"). "From $30" is the only number allowed.
-- Samples: The Beast (IG reel), Bad Influence (Drive 4K) and Café Kiss
-  (client work), each described as made in that brand's own style.
+- Samples: The Beast (IG reel), Vanille (Drive 4K), Bad Influence (Drive 4K)
+  and Café Kiss (client work), each described as made in that brand's own
+  style. Links are in OUTREACH-BRIEF.md.
+- Pitch (from 2026-10-20): we manage social media content for brands,
+  cinematic ads in their own style plus Meta ads that bring more business.
+- Offer split 50/50 per batch: Version A "first ad free" / Version B "zero
+  advance, no obligation, talk arrangement if you like it". Wording in
+  OUTREACH-BRIEF.md. Log which version each brand got.
 - Fiverr as one low-key closing line, never the pitch itself.
 - No em dashes. Vary structure — don't reuse the last email's shape.
 - Different subject line every time.
