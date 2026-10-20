@@ -38,18 +38,38 @@ Perfume / fragrance brands, and beard care / men's grooming brands. Only these
 two. If asked for "a different kind of email," that means vary the style or
 structure, not the target category.
 
-WHAT WE SELL (updated 2026-10-20, Ali's wording)
-We manage social media content for brands so their online presence brings
-maximum results: cinematic ads made in each brand's own style/theme, content
-that makes the brand prominent, and Meta ads that bring in more business.
-Every cold email says this in one or two plain sentences before the samples.
+WHAT WE SELL (updated 2026-10-21, Ali's corrections)
+We create social media content and cinematic ads for brands, each in that
+brand's own style. The brand chooses how: we follow their directions, or we
+build the storyboard ourselves, whichever they prefer.
+Meta ads: mention ONLY as one small, optional line near the end of the email
+(e.g. "If it ever helps, we can also run your Meta ads. Completely optional.").
+Never put Meta ads in the main pitch, never bundle it with the cinematic ads,
+and never make it sound required to work with us.
 
-SAMPLES (each made in that client's own style; use all four in cold emails)
+SAMPLES FOR COLD EMAILS (each made in that client's own style; use these three)
 - The Beast, for Maison Yusif (live IG reel): https://www.instagram.com/reel/Dd6mWo6CuaY/
 - Vanille (4K, Drive): https://drive.google.com/file/d/1wNZjvnKGVg6ttQMnZODXULhu4b6EHI2R/view?usp=sharing
 - Bad Influence, for Maison Yusif (4K, Drive): https://drive.google.com/file/d/1D-zRFkKo6c-Q05LTnpY1a-5clBHbW9AC/view?usp=sharing
-- Cafe Kiss, client work for Kierin (Drive): https://drive.google.com/file/d/1ROFVkQe0Y34LkfjyrEI3uDwHumzDV4IZ/view?usp=sharing
+Do NOT include Cafe Kiss in cold emails (removed 2026-10-21 at Ali's request).
 Do not name a client for Vanille unless Ali confirms who it was made for.
+
+COLD EMAIL TEMPLATE (2026-10-21)
+  Hey {Brand} team,
+  {One true line about the brand, from their own site.}
+  I'm Ali from QZI Labs. We create social media content and cinematic ads for
+  brands, each in that brand's own style. We can follow your directions, or
+  build the storyboard ourselves, whichever you prefer. Here's some of our
+  work, each made in that client's style:
+  The Beast, for Maison Yusif: {IG link}
+  Vanille (4K): {Drive link}
+  Bad Influence, for Maison Yusif (4K): {Drive link}
+  {Offer: Version A or B, below}
+  Want me to make one? A simple yes is enough. You can also reach me on
+  WhatsApp or Fiverr.
+  If it ever helps, we can also run your Meta ads. Completely optional.
+  Ali Sajid, Founder & Creative Director, QZI Labs
+  P.S. Not your thing? Just reply "unsubscribe" and I won't write again.
 
 FIRST-AD OFFER: SPLIT EVERY BATCH 50/50 (from 2026-10-20)
 - Version A (half the batch): "Here's my offer: your first ad is free, made in

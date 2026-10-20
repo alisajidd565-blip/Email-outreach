@@ -4,7 +4,7 @@
 |---|---|
 | 5-second snippet (stories, Reels, ads) | **30** (lead offer, emphasize this) |
 | 15-second ad | 90 |
-| 20-25 second ad (style of The Beast / Cafe Kiss samples) | 150 |
+| 20-25 second ad (style of The Beast sample) | 150 |
 | Documentary ad, 30-40 seconds | 250 |
 | Short film | 400 |
 
@@ -19,4 +19,3 @@
 - El Patrón, Maison Yusif (live on IG): https://www.instagram.com/reel/DeKcAMyCtsk/
 - Vanille (4K, Drive): https://drive.google.com/file/d/1wNZjvnKGVg6ttQMnZODXULhu4b6EHI2R/view?usp=sharing
 - Bad Influence, Maison Yusif (4K): https://drive.google.com/file/d/1D-zRFkKo6c-Q05LTnpY1a-5clBHbW9AC/view?usp=sharing
-- Cafe Kiss (client work, 4K): https://drive.google.com/file/d/1ROFVkQe0Y34LkfjyrEI3uDwHumzDV4IZ/view?usp=sharing
