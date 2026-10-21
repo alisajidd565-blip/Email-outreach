@@ -70,8 +70,10 @@ Which line to use:
    reaching it. We create ads that generate leads and engagement."
 2. Low followers and low engagement: "You have {N} followers and posts average
    about {L} likes. We create ads that generate leads and engagement."
-3. Good followers and good engagement (not covered by Ali's rule yet; ask Ali
-   before using): compliment the engagement, pitch ads that turn it into sales.
+3. Good engagement (1%+), any follower count (approved by Ali 2026-10-21):
+   "Your posts average about {L} likes and {C} comments, around {E}%
+   engagement. Your audience already engages. We create ads that turn that
+   engagement into sales." 
 Say it politely, as an observation, never as an insult. Numbers must be real
 and from the last few days; never estimate or invent them. If the numbers
 cannot be fetched, do not send that email.
