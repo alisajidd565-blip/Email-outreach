@@ -1,4 +1,4 @@
-# Batch 24: personalised drafts (NOT SENT, waiting for Ali's review), 21 Oct 2026
+# Batch 24: personalised drafts (SENT 21 Oct, see QZI-send-logs), 21 Oct 2026
 
 Instagram numbers pulled via Apify on 21 Oct 2026 (followers, last 11-12 posts, own posts only).
 Engagement = (avg likes + avg comments) / followers. Rule: 5,000+ followers = good; under 1% = low.
