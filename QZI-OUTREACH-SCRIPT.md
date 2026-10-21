@@ -122,7 +122,9 @@ Per email, apply every rule from OUTREACH-BRIEF.md's FORMAT RULES section:
   No Cafe Kiss in cold emails. Links are in OUTREACH-BRIEF.md.
 - Pitch (from 2026-10-21): we create social media content and cinematic ads
   in the brand's own style; we follow their directions or build our own
-  storyboard, their choice. Meta ads only as one small optional line near the
+  storyboard, their choice. Every email also says each ad gets its own
+  original music, composed and themed for that ad, so no copyright issues.
+  Meta ads only as one small optional line near the
   end, never part of the main pitch. Full template in OUTREACH-BRIEF.md.
 - Offer split 50/50 per batch: Version A "first ad free" / Version B "zero
   advance, no obligation, talk arrangement if you like it". Wording in

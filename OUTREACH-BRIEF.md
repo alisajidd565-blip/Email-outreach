@@ -42,6 +42,10 @@ WHAT WE SELL (updated 2026-10-21, Ali's corrections)
 We create social media content and cinematic ads for brands, each in that
 brand's own style. The brand chooses how: we follow their directions, or we
 build the storyboard ourselves, whichever they prefer.
+Original music (from 2026-10-21, in every email): we compose music for each
+ad, themed to that ad, so there are no copyright issues. Standard line:
+"Every ad also gets its own original music, composed for that ad and themed
+to it, so there are no copyright issues."
 Meta ads: mention ONLY as one small, optional line near the end of the email
 (e.g. "If it ever helps, we can also run your Meta ads. Completely optional.").
 Never put Meta ads in the main pitch, never bundle it with the cinematic ads,
@@ -83,8 +87,10 @@ COLD EMAIL TEMPLATE (2026-10-21)
   {One true line about the brand, from their own site.}
   I'm Ali from QZI Labs. We create social media content and cinematic ads for
   brands, each in that brand's own style. We can follow your directions, or
-  build the storyboard ourselves, whichever you prefer. Here's some of our
-  work, each made in that client's style:
+  build the storyboard ourselves, whichever you prefer. Every ad also gets
+  its own original music, composed for that ad and themed to it, so there
+  are no copyright issues. Here's some of our work, each made in that
+  client's style:
   The Beast, for Maison Yusif: {IG link}
   Vanille (4K): {Drive link}
   Bad Influence, for Maison Yusif (4K): {Drive link}
