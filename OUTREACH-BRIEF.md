@@ -46,6 +46,9 @@ Original music (from 2026-10-21, in every email): we compose music for each
 ad, themed to that ad, so there are no copyright issues. Standard line:
 "Every ad also gets its own original music, composed for that ad and themed
 to it, so there are no copyright issues."
+Price card line (from 2026-10-22, last line before the signature):
+"We can also share our price card with you whenever you like."
+Do-not-contact (asked to unsubscribe): zariya.ie, mojobeard.com.
 Meta ads: mention ONLY as one small, optional line near the end of the email
 (e.g. "If it ever helps, we can also run your Meta ads. Completely optional.").
 Never put Meta ads in the main pitch, never bundle it with the cinematic ads,
