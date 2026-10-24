@@ -48,7 +48,7 @@ ad, themed to that ad, so there are no copyright issues. Standard line:
 to it, so there are no copyright issues."
 Price card line (from 2026-10-22, last line before the signature):
 "We can also share our price card with you whenever you like."
-Do-not-contact (asked to unsubscribe): zariya.ie, mojobeard.com.
+Do-not-contact (asked to unsubscribe): zariya.ie, mojobeard.com, reminiscence.mc. Bounced (do not retry): scrubd.com, tempusvitae (Yahoo).
 Meta ads: mention ONLY as one small, optional line near the end of the email
 (e.g. "If it ever helps, we can also run your Meta ads. Completely optional.").
 Never put Meta ads in the main pitch, never bundle it with the cinematic ads,
