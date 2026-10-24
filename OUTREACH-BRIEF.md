@@ -38,12 +38,102 @@ Perfume / fragrance brands, and beard care / men's grooming brands. Only these
 two. If asked for "a different kind of email," that means vary the style or
 structure, not the target category.
 
-PRICING (single live Fiverr gig): $150 / $250 / $500.
-NEVER put a dollar figure in a cold outreach email. Across a batch of emails:
-about 80% mention price not at all; the other 20% may say "it's very affordable"
-with no number attached, ever. The only place a prospect should see an actual
-price is the Fiverr gig page itself, so the email and the gig can never
-contradict each other.
+WHAT WE SELL (updated 2026-10-21, Ali's corrections)
+We create social media content and cinematic ads for brands, each in that
+brand's own style. The brand chooses how: we follow their directions, or we
+build the storyboard ourselves, whichever they prefer.
+Original music (from 2026-10-21, in every email): we compose music for each
+ad, themed to that ad, so there are no copyright issues. Standard line:
+"Every ad also gets its own original music, composed for that ad and themed
+to it, so there are no copyright issues."
+Price card line (from 2026-10-22, last line before the signature):
+"We can also share our price card with you whenever you like."
+Do-not-contact (asked to unsubscribe): zariya.ie, mojobeard.com, reminiscence.mc. Bounced (do not retry): scrubd.com, tempusvitae (Yahoo).
+Meta ads: mention ONLY as one small, optional line near the end of the email
+(e.g. "If it ever helps, we can also run your Meta ads. Completely optional.").
+Never put Meta ads in the main pitch, never bundle it with the cinematic ads,
+and never make it sound required to work with us.
+
+SAMPLES FOR COLD EMAILS (each made in that client's own style; use these three)
+- The Beast, for Maison Yusif (live IG reel): https://www.instagram.com/reel/Dd6mWo6CuaY/
+- Vanille (4K, Drive): https://drive.google.com/file/d/1wNZjvnKGVg6ttQMnZODXULhu4b6EHI2R/view?usp=sharing
+- Bad Influence, for Maison Yusif (4K, Drive): https://drive.google.com/file/d/1D-zRFkKo6c-Q05LTnpY1a-5clBHbW9AC/view?usp=sharing
+Do NOT include Cafe Kiss in cold emails (removed 2026-10-21 at Ali's request).
+Do not name a client for Vanille unless Ali confirms who it was made for.
+
+PERSONALISATION RULE (from 2026-10-21, Ali): every email is highly
+personalised and quotes the brand's own social media numbers.
+Research per prospect before writing (deep, not one line):
+- Website: hero products, newest launch, founder/story, price level, country.
+- Instagram: follower count, and average likes + comments on the last 12
+  posts -> engagement rate = (avg likes + avg comments) / followers.
+  Also note posting frequency and whether they post video/Reels at all.
+  "Reach" is private (only the account owner sees it), so never claim to know
+  their reach. Use engagement rate as the public proxy and say "engagement".
+- Thresholds: followers "good" = 5,000+. Engagement "low" = under 1%.
+Which line to use:
+1. Good followers, low engagement: "You have {N} followers, but posts average
+   about {L} likes ({E}% engagement). The audience is there; the content isn't
+   reaching it. We create ads that generate leads and engagement."
+2. Low followers and low engagement: "You have {N} followers and posts average
+   about {L} likes. We create ads that generate leads and engagement."
+3. Good engagement (1%+), any follower count (approved by Ali 2026-10-21):
+   "Your posts average about {L} likes and {C} comments, around {E}%
+   engagement. Your audience already engages. We create ads that turn that
+   engagement into sales." 
+Say it politely, as an observation, never as an insult. Numbers must be real
+and from the last few days; never estimate or invent them. If the numbers
+cannot be fetched, do not send that email.
+
+COLD EMAIL TEMPLATE (2026-10-21)
+  Hey {Brand} team,
+  {One true line about the brand, from their own site.}
+  I'm Ali from QZI Labs. We create social media content and cinematic ads for
+  brands, each in that brand's own style. We can follow your directions, or
+  build the storyboard ourselves, whichever you prefer. Every ad also gets
+  its own original music, composed for that ad and themed to it, so there
+  are no copyright issues. Here's some of our work, each made in that
+  client's style:
+  The Beast, for Maison Yusif: {IG link}
+  Vanille (4K): {Drive link}
+  Bad Influence, for Maison Yusif (4K): {Drive link}
+  {Offer: Version A or B, below}
+  Want me to make one? A simple yes is enough. You can also reach me on
+  WhatsApp or Fiverr.
+  If it ever helps, we can also run your Meta ads. Completely optional.
+  Ali Sajid, Founder & Creative Director, QZI Labs
+  P.S. Not your thing? Just reply "unsubscribe" and I won't write again.
+
+FIRST-AD OFFER: SPLIT EVERY BATCH 50/50 (from 2026-10-20)
+- Version A (half the batch): "Here's my offer: your first ad is free, made in
+  {Brand}'s style from your product photos. If you like what we make for your
+  brand, we can talk about the future."
+- Version B (other half): "Here's my offer: zero advance and no obligation. We
+  prepare your first ad in {Brand}'s style from your product photos. If you
+  like it, we talk about an arrangement and how to make {Brand}'s image
+  stronger online. A strong social media presence isn't optional anymore, and
+  we'll make sure yours is."
+Alternate A/B down the send list and record the version in the send log, so
+reply rates can be compared after 2 to 3 batches.
+
+THE OFFER (2026-10-13 version, still valid for warm leads)
+EVERY email (cold, follow-up, WhatsApp, Instagram DM) must carry this offer:
+- The first ad is made with NO ADVANCE. The brand pays nothing up front.
+- It is made in the brand's OWN style, from their product photos.
+- If they like it, we move forward. If not, they owe nothing.
+- The samples are each made in the style of the brand they were made for.
+Standard line for cold emails:
+  "Here's my offer: your first ad is on us, made in {Brand}'s style from your
+  product photos. No advance, nothing to pay. If you like it, we move forward,
+  with short ads starting at just $30."
+For a warm lead who has already asked for an invoice (e.g. Mona at Kierin),
+use: "I'll make it first, with no advance. You only pay if you like it and
+use it."
+The only number allowed in a cold email is "from $30". Full prices live in
+QZI-price-card.md and are sent only when a brand asks.
+
+OLD PRICING RULE (kept for history, superseded by THE OFFER above):
+Fiverr gig $150 / $250 / $500. Never put a dollar figure in a cold email.
 Exception: the Velara pitch (see PORTFOLIO below) explicitly leads with price
 and AI — that is a deliberate one-off, not the general rule.
 
