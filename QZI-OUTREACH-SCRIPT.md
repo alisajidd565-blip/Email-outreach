@@ -109,9 +109,9 @@ Per email, apply every rule from OUTREACH-BRIEF.md's FORMAT RULES section:
   so Gmail renders its inline video preview card. Fiverr link: ALWAYS
   hyperlinked behind anchor text, never raw. (Corrected 2026-09-22; no more
   per-email 50/50 raw/hyperlink choice for the Drive link.)
-- Sign off as "— Ali, QZI Labs". Opt-out goes after the signature as a P.S.:
-  "P.S. If you'd rather not receive messages like this, reply "unsubscribe"
-  and I won't follow up." (Corrected 2026-09-22.)
+- Sign off as "— Ali, QZI Labs". NO opt-out / "unsubscribe" / "reply no"
+  line (Ali, 2026-10-26). Anyone who asks to stop is added to the
+  do-not-contact list in OUTREACH-BRIEF.md and never emailed again.
 - THE OFFER, in every email (updated 2026-10-13): first ad with no advance,
   made in their own style from their product photos; if they like it, we
   move forward. Use the standard line from OUTREACH-BRIEF.md ("your first ad

@@ -102,7 +102,7 @@ COLD EMAIL TEMPLATE (2026-10-21)
   WhatsApp or Fiverr.
   If it ever helps, we can also run your Meta ads. Completely optional.
   Ali Sajid, Founder & Creative Director, QZI Labs
-  P.S. Not your thing? Just reply "unsubscribe" and I won't write again.
+  (No opt-out / "unsubscribe" line. Removed on Ali's instruction 2026-10-26.)
 
 FIRST-AD OFFER: SPLIT EVERY BATCH 50/50 (from 2026-10-20)
 - Version A (half the batch): "Here's my offer: your first ad is free, made in
@@ -198,10 +198,10 @@ FORMAT RULES (from ALI reviewing real sent emails)
   choice for the Drive link.
 - Attach 1–2 frames as images occasionally, but this is optional, not required.
 - Signature (corrected 2026-09-22): sign off as "— Ali, QZI Labs", not a bare
-  "Ali". The opt-out line goes AFTER the signature as a P.S., not inline
-  earlier in the body: "P.S. If you'd rather not receive messages like this,
-  reply "unsubscribe" and I won't follow up." (wording is "unsubscribe", not
-  "stop").
+  "Ali". NO opt-out / "unsubscribe" / "reply no" line in any email or
+  follow-up (Ali, 2026-10-26: it was prompting unsubscribes). Anyone who
+  still asks to stop goes on the do-not-contact list and is never emailed
+  again.
 - Send directly once drafted — ALI has said "send without asking" for this
   kind of campaign. Still dedup against the prospect lists AND Gmail first,
   every time, no exceptions.
