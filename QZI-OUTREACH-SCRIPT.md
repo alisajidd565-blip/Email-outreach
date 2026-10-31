@@ -109,10 +109,26 @@ Per email, apply every rule from OUTREACH-BRIEF.md's FORMAT RULES section:
   so Gmail renders its inline video preview card. Fiverr link: ALWAYS
   hyperlinked behind anchor text, never raw. (Corrected 2026-09-22; no more
   per-email 50/50 raw/hyperlink choice for the Drive link.)
-- Sign off as "— Ali, QZI Labs". Opt-out goes after the signature as a P.S.:
-  "P.S. If you'd rather not receive messages like this, reply "unsubscribe"
-  and I won't follow up." (Corrected 2026-09-22.)
-- No price, or "very affordable" with no number, per the 80/20 split.
+- Sign off as "— Ali, QZI Labs". NO opt-out / "unsubscribe" / "reply no"
+  line (Ali, 2026-10-26). Anyone who asks to stop is added to the
+  do-not-contact list in OUTREACH-BRIEF.md and never emailed again.
+- THE OFFER, in every email (updated 2026-10-13): first ad with no advance,
+  made in their own style from their product photos; if they like it, we
+  move forward. Use the standard line from OUTREACH-BRIEF.md ("your first ad
+  is on us ... No advance, nothing to pay ... short ads starting at just
+  $30"). "From $30" is the only number allowed.
+- Samples (from 2026-10-21): The Beast (IG reel), Vanille (Drive 4K) and Bad
+  Influence (Drive 4K), each described as made in that brand's own style.
+  No Cafe Kiss in cold emails. Links are in OUTREACH-BRIEF.md.
+- Pitch (from 2026-10-21): we create social media content and cinematic ads
+  in the brand's own style; we follow their directions or build our own
+  storyboard, their choice. Every email also says each ad gets its own
+  original music, composed and themed for that ad, so no copyright issues.
+  Meta ads only as one small optional line near the
+  end, never part of the main pitch. Full template in OUTREACH-BRIEF.md.
+- Offer split 50/50 per batch: Version A "first ad free" / Version B "zero
+  advance, no obligation, talk arrangement if you like it". Wording in
+  OUTREACH-BRIEF.md. Log which version each brand got.
 - Fiverr as one low-key closing line, never the pitch itself.
 - No em dashes. Vary structure — don't reuse the last email's shape.
 - Different subject line every time.
