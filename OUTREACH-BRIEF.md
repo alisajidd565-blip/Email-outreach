@@ -48,7 +48,7 @@ ad, themed to that ad, so there are no copyright issues. Standard line:
 to it, so there are no copyright issues."
 Price card line (from 2026-10-22, last line before the signature):
 "We can also share our price card with you whenever you like."
-Do-not-contact (asked to stop): zariya.ie, mojobeard.com, reminiscence.mc, emilelise.com, stgilesfinefragrance.com, derduft.com, fleuritparfums.com (declined: "We do not use AI"). Bounced/blocked (do not retry): scrubd.com, tempusvitae (Yahoo), veigelperfumes.com (554 spam block), noorson, lecmo. No follow-ups to onefragrancehouse (active client conversation, Ali handles directly).
+Do-not-contact (asked to stop): zariya.ie, mojobeard.com, reminiscence.mc, emilelise.com, stgilesfinefragrance.com, derduft.com, fleuritparfums.com (declined: "We do not use AI"). Bounced/blocked (do not retry): scrubd.com, tempusvitae (Yahoo), veigelperfumes.com (554 spam block), noorson, lecmo, soul-of-mine.com (gmail does not exist), riteofway.co (support@ does not exist). No follow-ups to onefragrancehouse (active client conversation, Ali handles directly).
 Meta ads: mention ONLY as one small, optional line near the end of the email
 (e.g. "If it ever helps, we can also run your Meta ads. Completely optional.").
 Never put Meta ads in the main pitch, never bundle it with the cinematic ads,
