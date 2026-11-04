@@ -13,6 +13,18 @@ Ali still has to approve these prices before they go to any client.
 | 6 | Short Film Plus | $479 | 25–30 s | + voice-over |
 | 7 | Signature Film | $899 | 60 s | Full script + music + captions + VO, every scene directed |
 
+## What each tier really includes (client-facing wording, 4 Nov)
+1. Snippet: 1–2 cinematic shots of one bottle (slow reveal, light sweep), ambient sound, 1 revision. For Stories, teasers, drops.
+2. Starter: 3–4 shots (bottle, one note brought to life, logo end shot), original music + captions, 1 revision. For regular Reels/TikTok and testing scents.
+3. Creative: we write concept + script from a short brief; 4–6 shots with a setting and mini story; music, captions, VO; 2 revisions.
+4. Directed: client directs shot list/angles/colours/props/wording; storyboard approval; exact bottle/label accuracy, unlimited takes per shot; music, captions, VO; 2 revisions. For launches and paid campaigns.
+5. Short Film: 8–10 scenes to specs with a beginning/middle/end; score + captions; storyboard approval; all formats included; 2 revisions. Hero content.
+6. Short Film Plus: Short Film + VO script written with the client, any language/tone. Brand story, founder's words, manifesto.
+7. Signature: full concept + script by QZI; 15–20 scenes each directed and approved; score, VO, captions, all formats; 2 revisions + final polish; includes 15 s and 6 s cut-downs. Flagship film for fairs, homepage, press, distributors.
+
+Note: "unlimited takes per shot" on Directed is not promised to the client in those words ("as many takes per shot as it needs").
+The Signature cut-downs are a new inclusion; cheap to make from existing footage.
+
 ## Terms
 - Revisions: 1 round (Snippet, Starter), 2 rounds (others). Storyboard/keyframe approval on Directed, Short Film, Signature. Extra round = 20% of package.
 - Formats: master 9:16. Extra ratios (4:5, 1:1, 16:9) $35 each, free from Short Film up.
