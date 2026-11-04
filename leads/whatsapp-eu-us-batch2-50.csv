@@ -1,0 +1,51 @@
+brand,country,type,whatsapp,number_source,emailed_before,status
+Angela Ciampagna,ES,Perfume brand,+34822145716,WhatsApp link,yes,QUEUED
+Castelbel,PT,Perfume brand,+351913964852,WhatsApp link,yes,QUEUED
+Francesca Dell'Oro,IT,Perfume brand,+393355945188,WhatsApp link,yes,QUEUED
+Gianluca Gariboldi,IT,Perfume brand,+393384437921,mobile (likely WhatsApp),yes,QUEUED
+Danhera,IT,Perfume brand,+393783012883,WhatsApp link,yes,QUEUED
+Epicò Parfum,IT,Perfume brand,+393204765784,mobile (likely WhatsApp),yes,QUEUED
+LUMI,IT,Perfume brand,+393401727378,mobile (likely WhatsApp),yes,QUEUED
+Officina delle Essenze,IT,Perfume brand,+393913725200,WhatsApp link,yes,QUEUED
+POSH Extrait,IT,Perfume brand,+393892828903,WhatsApp link,yes,QUEUED
+Sikelia,IT,Perfume brand,+393760594148,WhatsApp link,yes,QUEUED
+Syrok,IT,Perfume brand,+393316332177,WhatsApp link,no,QUEUED
+Björk & Berries,SE,Perfume brand,+46708802378,mobile (likely WhatsApp),yes,QUEUED
+Alghabra Parfums,ES,Perfume brand,+34640770618,mobile (likely WhatsApp),yes,QUEUED
+Antica Barbieria Colla,IT,Perfume brand,+393401826723,WhatsApp link,yes,QUEUED
+Atlas Fragrances,NL,Perfume brand,+31645541212,mobile (likely WhatsApp),yes,QUEUED
+By Corel,PL,Perfume brand,+48696260528,mobile (likely WhatsApp),yes,QUEUED
+Eminence Parfums,IT,Perfume brand,+393760753821,WhatsApp link,yes,QUEUED
+Ester & Erik,FR,Perfume brand,+33618320016,mobile (likely WhatsApp),yes,QUEUED
+Indices Parfums,BE,Perfume brand,+32485502567,mobile (likely WhatsApp),yes,QUEUED
+Logevy Firenze,US/CA,Perfume brand,+15615831078,WhatsApp link,yes,QUEUED
+Next Memory,PT,Perfume brand,+351936872064,mobile (likely WhatsApp),yes,QUEUED
+Raer Scents,DE,Perfume brand,+491734583296,WhatsApp link,yes,QUEUED
+Imperial Parfums,FR,Perfume brand,+33629888232,WhatsApp link,yes,QUEUED
+Meus Art Perfumery,RO,Perfume brand,+40722262814,mobile (likely WhatsApp),yes,QUEUED
+Omnia Profumi,IT,Perfume brand,+393922242388,mobile (likely WhatsApp),no,QUEUED
+I Profumi di Ieri,IT,Perfume brand,+393516745020,WhatsApp link,no,QUEUED
+Varriale Profumi,IT,Perfume brand,+393440553053,WhatsApp link,no,QUEUED
+Vieffe Noselab,IT,Perfume brand,+393313452737,WhatsApp link,no,QUEUED
+Acqua degli Dei,IT,Perfume brand,+393476035518,mobile (likely WhatsApp),no,QUEUED
+Abaton,IT,Perfume brand,+393517303257,WhatsApp link,no,QUEUED
+Sileno Cheloni,IT,Perfume brand,+393755848649,mobile (likely WhatsApp),no,QUEUED
+Accendis,IT,Perfume brand,+393386154914,mobile (likely WhatsApp),no,QUEUED
+Trevi Profumo Roma,IT,Perfume brand,+39066784200,WhatsApp link,no,QUEUED
+Clash Fragrances,PT,Perfume brand,+351932770909,mobile (likely WhatsApp),no,QUEUED
+ORMAIE,FR,Perfume brand,+33688885227,WhatsApp link,no,QUEUED
+Monreale Parfums,UK,Perfume brand,+306908242420,mobile (likely WhatsApp),no,QUEUED
+Bottega della Barba,IT,Grooming,+393333293893,WhatsApp link,no,QUEUED
+The Alpha Men,NL,Grooming,+31850607010,WhatsApp link,no,QUEUED
+K Soy Kandles,UK,Candles / home,+447904203083,mobile (likely WhatsApp),yes,QUEUED
+Simon James Home,UK,Candles / home,+447942490978,WhatsApp link,no,QUEUED
+The Wax House,UK,Candles / home,+447712601633,mobile (likely WhatsApp),yes,QUEUED
+Eriskay Candles,UK,Candles / home,+447964098182,mobile (likely WhatsApp),yes,QUEUED
+Arabian Perfume Shop,UK,Shop,+447566286452,WhatsApp link,yes,QUEUED
+Luxe Arabian Scents,UK,Shop,+447496685559,WhatsApp link,yes,QUEUED
+Etualy,IT,Shop,+393667580954,mobile (likely WhatsApp),no,QUEUED
+All Yours,ES,Shop,+34653420243,WhatsApp link,no,QUEUED
+Nasopia,ES,Shop,+34676874745,WhatsApp link,no,QUEUED
+RIU Parfum,ES,Shop,+34666403638,WhatsApp link,no,QUEUED
+Alalba Perfumes,ES,Shop,+34620322208,WhatsApp link,no,QUEUED
+Smell Atelier,IT,Perfume school,+393484262301,WhatsApp link,no,QUEUED
