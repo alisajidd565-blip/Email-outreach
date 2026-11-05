@@ -1,0 +1,8 @@
+# Secret keys - never upload
+.env
+
+# Generated email drafts
+drafts/
+
+# Python junk
+__pycache__/
