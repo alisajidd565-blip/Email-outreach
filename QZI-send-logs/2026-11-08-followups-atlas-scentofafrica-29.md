@@ -26,3 +26,7 @@ Harlem Perfume Co., Mizu, Swirlworks, Ile Olomu, June Thirtieth, Anjali, Maison 
 ## Held for 9 Nov (volume)
 50 more final touches (rest of batches 34–37 + the 3 Nov group). Queue is in the scratchpad, not committed.
 8 Nov total sends: 16 + 1 + 11 + 17 = 45.
+
+## Correction (after sending)
+Ali, later on 8 Nov: "don't do Scent of Africa". The email above had already gone out (message 1a1ba2377d7688ae)
+and cannot be recalled. Scent of Africa is now on the no-automated-follow-ups list in OUTREACH-BRIEF.md.
