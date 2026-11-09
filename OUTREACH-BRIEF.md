@@ -58,6 +58,9 @@ SAMPLES FOR COLD EMAILS (each made in that client's own style; use these three)
 - The Beast, for Maison Yusif (live IG reel): https://www.instagram.com/reel/Dd6mWo6CuaY/
 - Vanille (4K, Drive): https://drive.google.com/file/d/1wNZjvnKGVg6ttQMnZODXULhu4b6EHI2R/view?usp=sharing
 - Bad Influence, for Maison Yusif (4K, Drive): https://drive.google.com/file/d/1D-zRFkKo6c-Q05LTnpY1a-5clBHbW9AC/view?usp=sharing
+- Atlas Original (Drive, added 2026-11-08): https://drive.google.com/file/d/1itvrPB-_hT69dSw_O2hqnsdql1V64_O4/view?usp=sharing
+FROM 2026-11-09 (Ali): use The Beast INSTEAD OF Bad Influence in every new email.
+Current 2-film pair for first emails: Atlas Original + The Beast (IG reel). Bad Influence only if a 3rd/4th film is wanted.
 Do NOT include Cafe Kiss in cold emails (removed 2026-10-21 at Ali's request).
 Do not name a client for Vanille unless Ali confirms who it was made for.
 
