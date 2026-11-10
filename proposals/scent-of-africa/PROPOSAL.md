@@ -8,7 +8,7 @@ Client-facing text below. Internal notes are marked [ALI].
 ## 1. The first film: ANANCY (free, no obligation)
 
 **Creative direction: "The Storyteller"**
-Anansi owns all the stories. The film is one story told without words: a single golden thread, like spider silk, travels through the landscapes Scent of Africa is built on — roots and red earth, a river at dusk, the savannah horizon, a starry sky. Wherever the thread passes, the fragrance's notes come alive: a flash of cardamom and bergamot in the light; iris, creamy sandalwood and ambrette as the thread softens; cedar, vetiver and Somali frankincense as night falls. The thread finally weaves itself into the silhouette of the Anancy bottle. The bottle is the real one (composited from your product photos, never redrawn by AI), with the logo and the line "A fragrance of cultural blending and majesty".
+Anansi owns all the stories. The film is one story told without words: a single golden thread, like spider silk, travels through the landscapes Scent of Africa is built on — roots and red earth, a river at dusk, the savannah horizon, a starry sky. Wherever the thread passes, the fragrance's notes come alive: a flash of cardamom and bergamot in the light; iris, creamy sandalwood and ambrette as the thread softens; cedar, vetiver and Somali frankincense as night falls. The thread finally weaves itself into the silhouette of the Anancy bottle. The bottle is exact: we build a 3D model of Anancy from your photos and render it with industry-leading AI models, with the logo and the line "A fragrance of cultural blending and majesty".
 
 Mood: majestic, warm, confident yet gentle — strength and softness, as your own page describes it. Palette: black, deep gold, dusk amber. Original score composed for the film (a West African kora motif over a modern cinematic bed), royalty-free, so the film can run as a paid ad without copyright claims.
 
@@ -18,10 +18,18 @@ Mood: majestic, warm, confident yet gentle — strength and softness, as your ow
 - Optional voice-over (English; French available) — a single line from the legend
 
 **Deliverables and process**
-1. You send 4–6 phone photos of the bottle (front, back, cap, label close-up) and your logo. Your website photos work too, but phone photos from several angles give 100% accuracy.
+1. You send 4–6 phone photos of the bottle (front, back, cap, label close-up) and your logo. We build the 3D model from them.
 2. Within 3 working days: a storyboard (6–8 frames) for your approval.
 3. Within 7 working days of approval: the finished film, with two rounds of revisions included.
 4. The film is yours to post, free, whatever you decide afterwards.
+
+**The ads we make**
+- Full cinematic films: story-led brand and product films with original music
+- AI viral formats: short-form styles that travel on Reels and TikTok
+- Trending hook ads: fast openings built on current trends, made to stop the scroll
+- Snippets and cinematic stills between films
+
+**AI realism is our specialty.** We build every bottle as a 3D model and render it with the leading industry-standard AI video and image models, so it looks like a studio shoot and the bottles stay exact in every film.
 
 ---
 
@@ -60,7 +68,7 @@ For launch months and for owning the conversation.
 ### Terms (all plans)
 - Original music composed for each film, royalty-free for you. No copyright claims on organic posts or paid ads.
 - Rights: perpetual, worldwide, for your website, social media, paid digital, and for your distributors and stockists. TV, cinema and outdoor quoted separately.
-- Real bottles always: product shots are composited from your photos, never generated.
+- Exact bottles always: each bottle is built as a 3D model from your photos and rendered with industry-leading AI models.
 - Quoted in USD; EUR available. Month to month. A 3-month commitment takes 10% off.
 - Founding-client offer: Scent of Africa would be one of our first houses on a monthly plan. In exchange for a short testimonial and the right to show the work in our portfolio, we take 15% off the first three months.
 - The first Anancy film is free regardless of which plan, or no plan, you choose.
@@ -70,7 +78,7 @@ For launch months and for owning the conversation.
 ---
 
 ## 3. What we are (service overview)
-QZI Labs makes cinematic AI films for fragrance and luxury brands: concept, storyboard, film, original music, captions and voice-over, delivered in every social format. We work with Maison Yusif Fragrance, named 2026 Fragrance Brand of the Year at the Ghana Beauty Awards (The Beast, El Patrón, Bad Influence are ours). Delivery is 3–5 working days per film, 7 for hero films. Contact: Ali Sajid, Founder & Creative Director, WhatsApp +92 328 1870330.
+QZI Labs makes cinematic AI films for fragrance and luxury brands: concept, storyboard, film, original music, captions and voice-over, delivered in every social format. We work with top brands in their niches, including Maison Yusif Fragrance, named 2026 Fragrance Brand of the Year at the Ghana Beauty Awards (The Beast, El Patrón, Bad Influence are ours). As a demo, the first ad is free. Delivery is 3–5 working days per film, 7 for hero films. Contact: WhatsApp +92 328 1870330 (quickest). If they'd like a meeting, we schedule one.
 
 Portfolio: [PORTFOLIO DRIVE LINK — Ali to add]
 

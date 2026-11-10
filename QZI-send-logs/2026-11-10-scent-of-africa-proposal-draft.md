@@ -39,3 +39,19 @@ into the bottle; real bottle composited; black/gold/amber; kora motif score. 20�
 Capacity check: Takeover = 30 films in 30 days, credits ≈ $1,300–1,600/month.
 
 Scent of Africa stays on the no-automated-follow-ups list. Ali sends.
+
+## Revision 2 (Ali, 10 Nov, same day)
+Ali's changes, all applied to proposal.html / the PDF and the Gmail draft:
+- Contact via WhatsApp +92 328 1870330; no "book a call"; "if you'd like a meeting, we'll schedule one".
+- "We work with top brands in their niches"; first film free as a demo.
+- Portfolio Drive folder: https://drive.google.com/drive/folders/10ZqOW6uoHFBSWZ5JQCG09SWJ8yBjYA_5
+- Ad types: full cinematic films, AI viral formats, trending hook ads, business/store films.
+- AI realism: every bottle built as a 3D model, rendered with leading AI models.
+- Everything original, footage to music, unless the client asks for a favourite track.
+- No fixed concept for the first film (the "Storyteller" treatment removed); just what could be built around Anancy + full creative input. No storyboard timing.
+- Single-rate table added ($25 image ad … $899 Signature) + business/store film $800, included once in the Master plan.
+- Each plan shows rate-card value vs price and the dollar saving: Presence $1,678→$990 (save $688), Growth $3,210→$1,990 (save $1,220),
+  Master (renamed from Takeover) $8,485→$4,900 (save $3,585). Values checked against the single rates.
+- New opening: digital presence is a fragrance house's biggest asset; this is marketing that brings customers, not "ads".
+- Made simpler: 4 pages. Founding-client 15% and "October rates" lines dropped.
+Draft r5677982721915005056 updated in the thread. Ali attaches the PDF (proposals/scent-of-africa/QZI-Labs-x-Scent-of-Africa-Proposal.pdf) and sends.
