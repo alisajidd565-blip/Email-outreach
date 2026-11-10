@@ -55,3 +55,13 @@ Ali's changes, all applied to proposal.html / the PDF and the Gmail draft:
 - New opening: digital presence is a fragrance house's biggest asset; this is marketing that brings customers, not "ads".
 - Made simpler: 4 pages. Founding-client 15% and "October rates" lines dropped.
 Draft r5677982721915005056 updated in the thread. Ali attaches the PDF (proposals/scent-of-africa/QZI-Labs-x-Scent-of-Africa-Proposal.pdf) and sends.
+
+## Revision 3 (Ali: "make these rates according to those rates")
+Single rates now match the October card they already hold: snippet $30, 15 s ad $50, 25 s ad $90, VO ad $120,
+directed 30–40 s $150, short film $200, short film + VO $350, 1-minute film $500. Kept: image ad $25, store film $800.
+Plan values recomputed from those rates, so plan prices had to drop to keep a saving:
+- Presence: value $1,050 → $690 (save $360)
+- Growth: value $1,630 → $1,090 (save $540)
+- Master: value $4,330 → $2,900 (save $1,430)
+Ad films in plans are now 25–30 s (the October $90 tier). Draft r5677982721915005056 updated; PDF re-rendered.
+Margin note: credits ≈ $270 / $560 / $1,300–1,600 per month → Master keeps ~$1,300–1,600 for 30+ films of work.
