@@ -65,3 +65,11 @@ Plan values recomputed from those rates, so plan prices had to drop to keep a sa
 - Master: value $4,330 → $2,900 (save $1,430)
 Ad films in plans are now 25–30 s (the October $90 tier). Draft r5677982721915005056 updated; PDF re-rendered.
 Margin note: credits ≈ $270 / $560 / $1,300–1,600 per month → Master keeps ~$1,300–1,600 for 30+ films of work.
+
+## Revision 4 (Ali: "fuck the old rates, give new rates and tell the level we're pulling")
+Back to the new single rates ($25 image, $59 snippet, $119, $189, $299, $399, $479, $899; store film $800) and the
+rev-2 plan prices: Presence $990 (value $1,678), Growth $1,990 ($3,210), Master $4,900 ($8,485).
+Added "The level we work at" (6 cards): bottles rebuilt in 3D; top AI models, not budget ones; a concept and script per
+film; original score + VO EN/FR; hand-finished edit and grade, masters up to 4K; hooks/formats built for Reels/TikTok.
+States plainly: "Since October we have moved our whole production to a new level" and the single rates "replace the
+rate card we shared in October". Draft r5677982721915005056 updated; PDF re-rendered (4 pages).

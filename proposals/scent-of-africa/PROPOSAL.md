@@ -1,4 +1,4 @@
-> SUPERSEDED: this is the first draft. The current proposal is proposal.html / QZI-Labs-x-Scent-of-Africa-Proposal.pdf (rev 3, October rates). See QZI-send-logs/2026-11-10-scent-of-africa-proposal-draft.md.
+> SUPERSEDED: this is the first draft. The current proposal is proposal.html / QZI-Labs-x-Scent-of-Africa-Proposal.pdf (rev 4, new rates). See QZI-send-logs/2026-11-10-scent-of-africa-proposal-draft.md.
 
 # QZI Labs × Scent of Africa — proposal (draft for Ali's review, 10 Nov 2026)
 
