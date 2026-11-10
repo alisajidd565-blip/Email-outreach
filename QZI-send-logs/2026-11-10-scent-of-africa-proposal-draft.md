@@ -73,3 +73,5 @@ Added "The level we work at" (6 cards): bottles rebuilt in 3D; top AI models, no
 film; original score + VO EN/FR; hand-finished edit and grade, masters up to 4K; hooks/formats built for Reels/TikTok.
 States plainly: "Since October we have moved our whole production to a new level" and the single rates "replace the
 rate card we shared in October". Draft r5677982721915005056 updated; PDF re-rendered (4 pages).
+
+Rev 4b: Master plan now leads with "30 ad films in 30 days, one every day" (4 short + 26 ad films), in the PDF and the draft.
