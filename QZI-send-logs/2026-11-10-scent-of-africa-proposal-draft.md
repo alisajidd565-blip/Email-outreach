@@ -75,3 +75,9 @@ States plainly: "Since October we have moved our whole production to a new level
 rate card we shared in October". Draft r5677982721915005056 updated; PDF re-rendered (4 pages).
 
 Rev 4b: Master plan now leads with "30 ad films in 30 days, one every day" (4 short + 26 ad films), in the PDF and the draft.
+
+## SENT (Ali: "send it")
+10 Nov 2026: reply sent in-thread to selenna@ (cc afua@, ayla@, ali@scentofafrica.com), replying to message
+1a1c5b0fc4f10d5f, with QZI-Labs-x-Scent-of-Africa-Proposal.pdf attached (rev 4b, 4 pages, sha256 3fc3d6dd…f165).
+Sent message 1a1c6eafd0630312, thread 1a0baa43ea34b12c. Draft r5677982721915005056 deleted (it could not carry the PDF).
+Next: wait for Selenna. Ali handles replies (Scent of Africa is on the no-automated-follow-ups list).
