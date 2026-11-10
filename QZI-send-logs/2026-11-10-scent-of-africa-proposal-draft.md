@@ -13,7 +13,7 @@ their range (16 bottles) and business. Portfolio Drive link to come from Ali.
   social/video agencies, AI studios, AI UGC, Ghana agencies in GHS→USD, beauty social benchmarks, pricing logic).
 - Proposal: proposals/scent-of-africa/PROPOSAL.md (client text + [ALI] notes), proposal.html → 4-page PDF
   proposals/scent-of-africa/QZI-Labs-x-Scent-of-Africa-Proposal.pdf.
-- Gmail DRAFT reply to Selenna (cc Afua, Ayla, Ali Jihami) with the PDF attached and "[PORTFOLIO LINK]" placeholder.
+- Gmail DRAFT reply to Selenna (cc Afua, Ayla, Ali Jihami), in the thread, with a "[PORTFOLIO LINK]" placeholder. The connector cannot attach files to an in-thread draft: Ali attaches the PDF when he opens it.
 
 ## The plans (30 days each)
 | Plan | Price | Films | Snippets | Image ads | Extras |
@@ -35,7 +35,7 @@ into the bottle; real bottle composited; black/gold/amber; kora motif score. 20�
 2. Keep or cut "single films remain at the October rates" (old $30–$500 card is on file with them).
 3. Keep or cut "we can schedule and post for you" in Takeover.
 4. Confirm Maison Yusif may be named.
-5. Add the portfolio Drive link; attach the PDF (already attached to the draft).
+5. Add the portfolio Drive link and attach the PDF to the draft.
 Capacity check: Takeover = 30 films in 30 days, credits ≈ $1,300–1,600/month.
 
 Scent of Africa stays on the no-automated-follow-ups list. Ali sends.
