@@ -81,3 +81,9 @@ Rev 4b: Master plan now leads with "30 ad films in 30 days, one every day" (4 sh
 1a1c5b0fc4f10d5f, with QZI-Labs-x-Scent-of-Africa-Proposal.pdf attached (rev 4b, 4 pages, sha256 3fc3d6dd…f165).
 Sent message 1a1c6eafd0630312, thread 1a0baa43ea34b12c. Draft r5677982721915005056 deleted (it could not carry the PDF).
 Next: wait for Selenna. Ali handles replies (Scent of Africa is on the no-automated-follow-ups list).
+
+## 11 Nov: follow-up sent (Ali: "tell them I will be sending demo in 7 days")
+No reply to the proposal yet. Sent in-thread (message 1a1ca454f4ff4a92), cc as before:
+"I'll send you the Anancy demo within 7 days. I'll work from the images on your website, so nothing is needed from
+your side, and you can judge the film for yourselves."
+DEADLINE: Anancy demo due to Selenna by 18 Nov 2026.
