@@ -87,3 +87,6 @@ No reply to the proposal yet. Sent in-thread (message 1a1ca454f4ff4a92), cc as b
 "I'll send you the Anancy demo within 7 days. I'll work from the images on your website, so nothing is needed from
 your side, and you can judge the film for yourselves."
 DEADLINE: Anancy demo due to Selenna by 18 Nov 2026.
+11 Nov (minutes later, Ali): sent message 1a1ca464268bc97e: "if you have any requests for the Anancy film (a mood, a
+style, a message), tell me and I'll build it in. And if you're not interested, that's completely fine too, just let
+me know." That is 3 messages in ~24 h to 4 people: no more until they reply or the demo is ready (by 18 Nov).
