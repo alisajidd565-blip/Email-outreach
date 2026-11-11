@@ -1,3 +1,9 @@
+SENDING RULE (Ali, 2026-11-11, overrides anything else here):
+- Claude may SEND only outreach: first emails and scheduled follow-ups to leads in a batch.
+- Everything else is DRAFT ONLY, never sent directly: replies to anyone who has replied, messages to a specific
+  client or account (e.g. Scent of Africa, Spiritum, Puzzle Parfum, ONE), proposals, price questions.
+  Create the Gmail draft, tell Ali, and let him send it.
+
 # Outreach Context Brief — paste into a new Claude session
 Updated 2026-09-22. Replaces the previous version of this file, which had a
 dead gig link and stale pricing.
