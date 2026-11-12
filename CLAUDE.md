@@ -18,6 +18,13 @@
 - About 50 sends a day; check bounces before each batch.
 - Never commit scraped lead lists with emails or phone numbers; keep them in the scratchpad.
 
+## Outreach email format (from 12 Nov 2026)
+Use the "one film idea" format for first emails and follow-ups: (1) "I had an idea for {product} and wanted to ask
+before I make anything." (2) one specific film idea in 2-3 sentences from their own story. (3) 15 seconds, original
+music, real product rebuilt in 3D, free, theirs to post or not. (4) one proof link (The Beast, Maison Yusif award).
+(5) "Shall I make it? A simple yes or no is all I need." (6) price card line. Keep it near 110 words.
+Full example: QZI-send-logs/2026-11-12-fu50-concept-pitch.md.
+
 ## Where things are
 - OUTREACH-BRIEF.md: full outreach rules, do-not-contact and bounced lists.
 - known_domains.txt: every domain already contacted or probed (CRLF line endings).
