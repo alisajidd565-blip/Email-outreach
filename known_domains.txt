@@ -35,6 +35,8 @@
 6pmcandle.com
 7fqil14.y
 7i.a
+7magok.co.uk
+7magok.com
 8.g
 8.o
 8.q
@@ -411,6 +413,7 @@ bourboncandleco.com
 boysmells.com
 brackenburycandles.co.uk
 brackenburycandles.com
+bradfordwoodworking.com
 brandandiron.com
 brandswarehouse.com
 brandt.supply
@@ -439,7 +442,9 @@ burndownforwhatcandles.com
 burntatbothendscandleco.com
 buyargos.com
 buyrawaha.com
+by-crea.com
 bycorel.com
+bycrea.us
 bydarktales.com
 byermiafragrance.com
 byfriendofafriend.com
@@ -682,16 +687,19 @@ ecnargarf.com
 ecoya.com.au
 ecstopia.com
 edandjames.com
+edelholz-manufaktur.de
 edenbridge.co.uk
 edeniste.com
 edenlifecandleco.com
 edenperfumes.co.uk
 edgeofthewolds.co.uk
+edgewoodstudio.com
 edinburghskincare.com
 eg.8
 egoscentrique.com
 eightandbob.com
 einnim.com
+ekomia.de
 electimuss.com
 elevatedscentz.com
 elganaur.com
@@ -918,9 +926,11 @@ haeckels.co.uk
 hairymancare.com
 hairymancare.com.au
 hallandlarder.com
+hamburger-holzmanufaktur.de
 hangarsouth.com
 haptiq.nyc
 harbs.fr
+hardmandesign.com
 harlembrands.com
 harlemcandlecompany.com
 harry-lehmann-parfum.com
@@ -942,6 +952,7 @@ hekayatattar.com
 hellenist.fr
 hellenistparfums.com
 hello-nova.com
+hellojohi.com
 helocompany.com
 hemcael.com
 hendleyperfumes.com
@@ -969,6 +980,7 @@ hm.p
 hobepergh.com
 hocfurniture.ae
 holzerhandcrafted.com
+holzwerk-hamburg.de
 homecraftedcandleco.com
 homefactree.com
 homemadesprinklecandles.com
@@ -1153,6 +1165,7 @@ kineticperfumes.com
 kingdomscotland.com
 kingshairitage.com
 kismetolfactive.com
+kistenjack.de
 kmecandles.com
 knightsmengrooming.com
 knize.at
@@ -1389,6 +1402,7 @@ maribfragrances.com
 mariejeanne.fr
 marissazappas.com
 marketcandlecompany.com
+markjupiter.com
 marlou.co.uk
 marrakechimperial.com
 maskai.com.au
@@ -1532,6 +1546,7 @@ nasoperfumes.com
 nassimperfumes.com.au
 naturalnicheperfume.com
 natureboyproducts.com
+naturmoebel-manufaktur.de
 naver.com
 navitusparfums.com
 nazirabounassif.com
@@ -1837,6 +1852,7 @@ pmarly.com
 pnicolai.com
 poesieperfume.com
 poete.com
+pompy.com
 porcelainperfumery.com
 poseidon.co.nz
 poshextrait.com
@@ -1930,6 +1946,7 @@ risingphoenixperfumery.com
 rivaj-uk.com
 rivaj.pk
 rmkperfumery.com
+roble.store
 rockycreekcandles.com
 rockymountainbarber.com
 roencandles.com
@@ -2101,6 +2118,7 @@ skins.nl
 skparfumerie.com
 skyecandleco.com
 skylar.com
+slow-roads.com
 slumberhouse.com
 sm.i
 smellslike.ie
@@ -2444,6 +2462,7 @@ wescents.com
 wesker.store
 westcorkbeardcompany.ie
 westside.indiehousefragrances.com
+wewood.eu
 whcandle.com
 whippedcandles.com
 whitewatercandle.ca
@@ -2486,6 +2505,7 @@ worthingtoncandleworks.com
 wq.e
 wrenatelier.com
 wsliving.ae
+wuerfli.de
 wwake.com
 wyldnotes.com
 x.l
