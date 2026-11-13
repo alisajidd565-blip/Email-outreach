@@ -18,6 +18,23 @@
 - About 50 sends a day; check bounces before each batch.
 - Never commit scraped lead lists with emails or phone numbers; keep them in the scratchpad.
 
+## Outreach split: 50% KISS (Ali, 13 Nov 2026) — always applies
+- Every outreach batch (first emails and follow-ups) is split 50/50:
+  - Half "KISS" (keep it simple and straight): 1-2 short paragraphs, plain clean words, one direct offer of a single
+    free ad. No film concept, no story, no bullet list. Still ends with the price card line, no opt-out line.
+  - Half the "one film idea" format below.
+- Alternate by lead (A, B, A, B...) inside each batch, not by brand type, so the two halves are comparable.
+- Tag every lead in the send log as KISS or IDEA, so reply rates can be compared.
+- KISS template (about 70 words):
+  Subject: A free ad for {Brand}
+  Hi {Name},
+  I'm Ali from QZI Labs. We make cinematic AI ads for independent brands, and I'd like to make one for {product},
+  free: 15 seconds, original music, your real {bottle/piece/product} rebuilt in 3D. If you like it, post it.
+  If not, it costs you nothing.
+  Shall I make it? Here's one we made for Maison Yusif: {The Beast link}
+  We can also share our price card whenever you like.
+  Ali Sajid / QZI Labs
+
 ## Outreach email format (from 12 Nov 2026)
 Use the "one film idea" format for first emails and follow-ups: (1) "I had an idea for {product} and wanted to ask
 before I make anything." (2) one specific film idea in 2-3 sentences from their own story. (3) 15 seconds, original
