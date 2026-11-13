@@ -1,8 +1,8 @@
 # 2026-11-13: 2nd touch for the 8 held jewellers ("more personalized")
 
 Ali, 12 Nov: "continue outreach, but more personalized".
-Status: WRITTEN 12 Nov, NOT SENT. 50 sends already went out on 12 Nov, so these go out on the 13 Nov cap.
-Before sending: re-check replies and bounces for these 8 threads.
+Status: SENT 13 Nov, 08:3x UTC, all 8, in-thread (scheduled task). Checked first: no lead replies, no bounces since 12 Nov
+(only auto-replies from the furniture batch).
 
 ## What "more personalized" means here
 - Each email names one real piece from their own shop (checked on their site on 12 Nov), not "one of your pieces".
@@ -66,3 +66,10 @@ Yen Jewellery (thread 1a1bf9fa1651db31)
 ## Risk
 Small, detailed pieces (stones, settings, textured metal) are where AI warps most. Any yes needs the real piece
 composited in, as with the Puzzle Parfum bottle. Scent of Africa demo (due 18 Nov) still comes first.
+
+## Daily cap clash (13 Nov)
+A second session (branch claude/practical-ride-10apvj, furniture outreach) sends from the same Gmail:
+30 sends on the evening of 12 Nov and 15 on the morning of 13 Nov. With the 50 from this session, 12 Nov had about 95 sends,
+nearly twice the ~50 cap. Today: 15 furniture + these 8 = 23.
+Decision: no new first emails from this session today. Ali to choose how the ~50/day is split between the two streams
+before either sends more. Sending ~100 a day from one Gmail risks spam flags for every thread, Scent of Africa included.
