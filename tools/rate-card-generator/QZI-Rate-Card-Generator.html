@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QZI Rate Card Generator</title>
+<style>
+  :root { --ink:#141414; --gold:#b8933a; --muted:#6b6b6b; --line:#e3ddd0; --bg:#fbfaf7; --green:#2f6b3a;
+          --ui:#f3f1ec; --uiline:#d9d4c8; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; }
+  body { background: var(--ui); color: var(--ink); font-family: Helvetica, Arial, sans-serif; font-size: 14px; }
+  .app { display:grid; grid-template-columns: minmax(340px, 460px) 1fr; height:100vh; }
+  /* ---------- editor ---------- */
+  .editor { overflow-y:auto; border-right:1px solid var(--uiline); background:#fff; padding: 14px 16px 60px; }
+  .editor h1 { font-size:16px; margin:0 0 2px; letter-spacing:.04em; }
+  .editor .sub { color:var(--muted); font-size:12px; margin-bottom:12px; }
+  .bar { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px; }
+  button { font: inherit; font-size:13px; border:1px solid var(--uiline); background:#fff; border-radius:6px; padding:6px 10px; cursor:pointer; }
+  button:hover { border-color: var(--gold); }
+  button.primary { background: var(--ink); color:#fff; border-color: var(--ink); }
+  button.primary:hover { background:#000; }
+  button.mini { padding:2px 7px; font-size:12px; }
+  button.danger:hover { border-color:#b33; color:#b33; }
+  details { border:1px solid var(--uiline); border-radius:8px; margin-bottom:10px; background:#fff; }
+  summary { cursor:pointer; padding:9px 12px; font-weight:600; letter-spacing:.03em; }
+  details > .body { padding: 4px 12px 12px; }
+  label { display:block; font-size:12px; color:var(--muted); margin:8px 0 3px; }
+  input, textarea, select { width:100%; font: inherit; font-size:13px; padding:6px 8px; border:1px solid var(--uiline); border-radius:6px; background:#fff; }
+  textarea { resize: vertical; min-height: 54px; }
+  input:focus, textarea:focus, select:focus { outline: 2px solid rgba(184,147,58,.35); border-color: var(--gold); }
+  .row2 { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+  .item { border:1px solid var(--line); background: var(--bg); border-radius:8px; padding:8px 10px; margin:8px 0; }
+  .item .head { display:flex; gap:4px; align-items:center; justify-content:flex-end; }
+  .item .head .t { flex:1; font-weight:600; font-size:12px; color:var(--muted); }
+  .check { display:flex; align-items:center; gap:6px; margin-top:8px; font-size:13px; }
+  .check input { width:auto; }
+  .hint { font-size:11.5px; color:var(--muted); margin-top:4px; }
+  .toast { position:fixed; bottom:16px; left:16px; background:var(--ink); color:#fff; padding:8px 14px; border-radius:6px; font-size:13px; opacity:0; transition:opacity .2s; pointer-events:none; }
+  .toast.show { opacity:1; }
+  /* ---------- preview ---------- */
+  .stage { overflow:auto; padding: 24px; }
+  .sheet { width: 210mm; min-height: 297mm; margin: 0 auto; background:#fff; box-shadow: 0 2px 18px rgba(0,0,0,.12);
+           padding: 16mm 15mm; font-family: Georgia, "Times New Roman", serif; font-size: 10.5pt; line-height:1.45; color: var(--ink); }
+  .kicker { color: var(--gold); letter-spacing: .28em; font-size: 8.5pt; text-transform: uppercase; font-family: Helvetica, Arial, sans-serif; }
+  .sheet h2 { font-weight: normal; font-size: 24pt; line-height:1.15; margin: 3mm 0 2mm; }
+  .meta { font-family: Helvetica, Arial, sans-serif; font-size: 9pt; color: var(--muted); margin-bottom: 5mm; }
+  .lead { font-size: 11.5pt; border-left: 3px solid var(--gold); padding-left: 5mm; margin: 0 0 6mm; white-space: pre-wrap; }
+  .sheet h3 { font-family: Helvetica, Arial, sans-serif; font-weight: 600; font-size: 9.5pt; letter-spacing: .1em; text-transform: uppercase; margin: 6mm 0 2.5mm; }
+  table { width:100%; border-collapse: collapse; font-size: 9.8pt; }
+  th, td { text-align:left; padding: 2mm 2mm; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-family: Helvetica, Arial, sans-serif; font-size: 8pt; letter-spacing:.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  td.r, th.r { text-align:right; white-space:nowrap; }
+  td.name { font-weight: bold; }
+  .plans { display:grid; gap: 4mm; margin-top: 2mm; }
+  .plan { border: 1px solid var(--line); background: var(--bg); padding: 4.5mm 4mm; font-size: 9.4pt; line-height:1.42; display:flex; flex-direction:column; break-inside: avoid; }
+  .plan.hi { border: 1.5px solid var(--gold); background:#fff; }
+  .plan .pname { font-family: Helvetica, Arial, sans-serif; letter-spacing: .22em; font-size: 8.5pt; color: var(--gold); text-transform: uppercase; }
+  .plan .tag { font-style: italic; color: var(--muted); margin: 1mm 0 2mm; }
+  .plan ul { margin: 0 0 2mm 3.5mm; padding:0; flex:1; } .plan li { margin-bottom: 1mm; }
+  .val { border-top:1px solid var(--line); padding-top:2mm; margin-top:auto; font-family: Helvetica, Arial, sans-serif; font-size: 8.6pt; }
+  .val .r { display:flex; justify-content:space-between; align-items: baseline; gap: 4px; }
+  .val .strike { color: var(--muted); text-decoration: line-through; }
+  .val .price { font-size: 15pt; font-family: Georgia, serif; }
+  .val .save { color: var(--green); font-weight: 600; }
+  .note { background: var(--bg); border-left: 3px solid var(--gold); padding: 3mm 4.5mm; font-size: 9.6pt; margin: 4mm 0; white-space: pre-wrap; }
+  .terms { font-size: 9pt; color: var(--muted); white-space: pre-wrap; margin-top: 4mm; }
+  .contact { background: var(--ink); color:#fff; padding: 5mm 6mm; margin-top: 6mm; font-size: 10pt; break-inside: avoid; }
+  .contact .g { color: var(--gold); }
+  .contact a { color:#fff; }
+  @media (max-width: 900px) {
+    .app { grid-template-columns: 1fr; height:auto; }
+    .editor { border-right:0; border-bottom:1px solid var(--uiline); }
+    .stage { padding: 12px 0; }
+    .sheet { width: 100%; min-height: 0; padding: 8mm 6mm; }
+  }
+  @media print {
+    @page { size: A4; margin: 14mm 13mm; }
+    body { background:#fff; }
+    .editor, .toast { display:none !important; }
+    .app { display:block; height:auto; }
+    .stage { padding:0; overflow:visible; }
+    .sheet { width:auto; min-height:0; margin:0; box-shadow:none; padding:0; }
+    .contact, .plan { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .sheet { font-size: 10pt; line-height: 1.38; }
+    .sheet h2 { font-size: 21pt; margin: 2mm 0 1.5mm; }
+    .meta { margin-bottom: 3.5mm; }
+    .lead { font-size: 10.5pt; margin-bottom: 4mm; }
+    .sheet h3 { margin: 4.5mm 0 2mm; }
+    th, td { padding: 1.5mm 2mm; }
+    table { font-size: 9.3pt; }
+    .plan { padding: 3.5mm 3.5mm; font-size: 9pt; line-height: 1.36; }
+    .plan li { margin-bottom: .6mm; }
+    .note { margin: 3mm 0; padding: 2.5mm 4mm; }
+    .terms { margin-top: 2.5mm; }
+    .contact { margin-top: 4mm; padding: 4mm 5mm; font-size: 9.5pt; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="editor" id="editor"></aside>
+  <main class="stage"><div class="sheet" id="sheet"></div></main>
+</div>
+<div class="toast" id="toast"></div>
+<input type="file" id="importFile" accept=".json,application/json" hidden>
+
+<script>
+const STORE_KEY = 'qzi-rate-card-presets-v1';
+const LAST_KEY  = 'qzi-rate-card-last-v1';
+const CURRENCIES = { USD:'$', EUR:'€', GBP:'£', PKR:'Rs ', AED:'AED ' };
+
+function defaultCard() {
+  return {
+    kicker: 'QZI Labs · Rate card',
+    title: 'Cinematic AI ads that bring you customers',
+    client: '',
+    date: new Date().toLocaleDateString('en-GB', { day:'numeric', month:'long', year:'numeric' }),
+    currency: 'USD',
+    intro: 'Every bottle rebuilt in 3D and rendered with the leading AI models. Original music on every film, made for you.',
+    showRates: true,
+    ratesTitle: 'Single rates',
+    rates: [
+      { name:'Cinematic image ad', length:'Still', desc:'Feed and story versions', price:25 },
+      { name:'Cinematic snippet', length:'5–10 s', desc:'One product, one cinematic moment, ambient sound', price:59 },
+      { name:'Product ad', length:'15 s', desc:'Original music and captions', price:119 },
+      { name:'Story ad', length:'15–20 s', desc:'A concept from us, original music, captions', price:189 },
+      { name:'Story ad with voice-over', length:'15–20 s', desc:'As above, with voice-over', price:299 },
+      { name:'Short film', length:'25–30 s', desc:'A full story with an original score', price:399 },
+      { name:'Short film with voice-over', length:'25–30 s', desc:'As above, with a voice-over script written with you', price:479 },
+      { name:'Signature film', length:'60 s', desc:'Full concept and script, score, voice-over, plus 15 s and 6 s cut-downs', price:899 },
+      { name:'Business / store film', length:'30–60 s', desc:'Your real store or business, enhanced with AI visual effects', price:800 }
+    ],
+    showPlans: true,
+    plansTitle: 'Monthly plans: 30 days of content',
+    plans: [
+      { name:'Presence', tag:'Something new every day', lines:['4 ad films, 15–20 s','8 cinematic snippets, 5–10 s','18 cinematic image ads','30-day content calendar and captions'], price:990, value:1678, highlight:false },
+      { name:'Growth', tag:'A film for every launch', lines:['12 ad films, 15–20 s (2 with voice-over)','8 cinematic snippets','10 cinematic image ads','Calendar, captions, all formats','Monthly results review'], price:1990, value:3210, highlight:true },
+      { name:'Master', tag:'A film every day', lines:['30 ad films in 30 days, one every day','4 short films, 25–30 s','26 ad films, 15–20 s (8 with voice-over)','5 short cut-downs for Stories','1 store film','Calendar, captions, posting schedule, priority delivery','Fortnightly results report'], price:4900, value:8485, highlight:false }
+    ],
+    showDiscount: true,
+    discount: 'A three-month commitment takes a further 10% off any plan.',
+    terms: 'Everything is original, from footage to music. Perpetual worldwide rights for your website, social media, paid ads and stockists. Two rounds of revisions on films. Month to month.',
+    whatsapp: '+92 328 1870330',
+    email: 'alisajidd565@gmail.com',
+    portfolio: 'https://drive.google.com/drive/folders/10ZqOW6uoHFBSWZ5JQCG09SWJ8yBjYA_5',
+    signoff: 'Ali Sajid · Founder & Creative Director, QZI Labs'
+  };
+}
+
+let card = loadLast() || defaultCard();
+
+/* ---------- storage (never trusted to exist) ---------- */
+function safeGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+function safeSet(k, v) { try { localStorage.setItem(k, v); return true; } catch (e) { return false; } }
+function loadLast() { try { const s = safeGet(LAST_KEY); return s ? normalise(JSON.parse(s)) : null; } catch (e) { return null; } }
+function presets() { try { return JSON.parse(safeGet(STORE_KEY) || '{}'); } catch (e) { return {}; } }
+function normalise(c) { const d = defaultCard(); const out = Object.assign(d, c || {});
+  out.rates = Array.isArray(out.rates) ? out.rates : []; out.plans = Array.isArray(out.plans) ? out.plans : [];
+  out.plans.forEach(p => { if (!Array.isArray(p.lines)) p.lines = String(p.lines || '').split('\n').filter(Boolean); });
+  return out; }
+let saveTimer; function saveNow() { clearTimeout(saveTimer); safeSet(LAST_KEY, JSON.stringify(card)); }
+function autosave() { clearTimeout(saveTimer); saveTimer = setTimeout(saveNow, 300); }
+addEventListener('pagehide', saveNow); document.addEventListener('visibilitychange', () => { if (document.hidden) saveNow(); });
+
+/* ---------- helpers ---------- */
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function money(n) { const v = Number(n); if (!isFinite(v) || n === '' || n === null) return '';
+  const sym = CURRENCIES[card.currency] ?? '$';
+  return sym + v.toLocaleString('en-US', { maximumFractionDigits: 2 }); }
+function toast(msg) { const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('show'), 1800); }
+function num(v) { if (v === '' || v === null || v === undefined) return ''; const n = Number(String(v).replace(/[^0-9.\-]/g, '')); return isFinite(n) ? n : ''; }
+
+/* ---------- preview ---------- */
+function renderPreview() {
+  const c = card, s = document.getElementById('sheet');
+  let h = `<div class="kicker">${esc(c.kicker)}</div><h2>${esc(c.title)}</h2>`;
+  const meta = [c.client ? 'Prepared for ' + esc(c.client) : '', esc(c.date)].filter(Boolean).join(' · ');
+  if (meta) h += `<div class="meta">${meta}</div>`;
+  if (c.intro) h += `<p class="lead">${esc(c.intro)}</p>`;
+  if (c.showRates && c.rates.length) {
+    h += `<h3>${esc(c.ratesTitle)}</h3><table><thead><tr><th>Type</th><th>Length</th><th>What's included</th><th class="r">Price</th></tr></thead><tbody>`;
+    c.rates.forEach(r => { h += `<tr><td class="name">${esc(r.name)}</td><td>${esc(r.length)}</td><td>${esc(r.desc)}</td><td class="r">${esc(money(r.price))}</td></tr>`; });
+    h += `</tbody></table>`;
+  }
+  if (c.showPlans && c.plans.length) {
+    const cols = Math.min(c.plans.length, 3);
+    h += `<h3>${esc(c.plansTitle)}</h3><div class="plans" style="grid-template-columns:repeat(${cols},1fr)">`;
+    c.plans.forEach(p => {
+      const save = (num(p.value) !== '' && num(p.price) !== '') ? Number(p.value) - Number(p.price) : null;
+      h += `<div class="plan${p.highlight ? ' hi' : ''}"><div class="pname">${esc(p.name)}</div>`;
+      if (p.tag) h += `<div class="tag">${esc(p.tag)}</div>`;
+      h += `<ul>${p.lines.filter(l => l.trim()).map(l => `<li>${esc(l)}</li>`).join('')}</ul><div class="val">`;
+      if (num(p.value) !== '' && save > 0) h += `<div class="r"><span>Rate-card value</span><span class="strike">${esc(money(p.value))}</span></div>`;
+      h += `<div class="r"><span>Plan price / month</span><span class="price">${esc(money(p.price))}</span></div>`;
+      if (save > 0) h += `<div class="r"><span>You save</span><span class="save">${esc(money(save))}</span></div>`;
+      h += `</div></div>`;
+    });
+    h += `</div>`;
+  }
+  if (c.showDiscount && c.discount) h += `<div class="note">${esc(c.discount)}</div>`;
+  if (c.terms) h += `<div class="terms">${esc(c.terms)}</div>`;
+  const lines = [];
+  if (c.whatsapp) lines.push(`WhatsApp <span class="g">${esc(c.whatsapp)}</span>`);
+  if (c.email) lines.push(`Email <span class="g">${esc(c.email)}</span>`);
+  if (c.portfolio) lines.push(`Portfolio <a href="${esc(c.portfolio)}">${esc(c.portfolio.replace(/^https?:\/\//,'').slice(0,60))}${c.portfolio.length > 68 ? '…' : ''}</a>`);
+  if (lines.length || c.signoff) h += `<div class="contact">${c.signoff ? `<div>${esc(c.signoff)}</div>` : ''}${lines.map(l => `<div>${l}</div>`).join('')}</div>`;
+  s.innerHTML = h;
+  autosave();
+}
+
+/* ---------- email bullets ---------- */
+function asText() {
+  const c = card, out = [];
+  if (c.showRates && c.rates.length) {
+    out.push(c.ratesTitle);
+    const lc = x => x ? x.charAt(0).toLowerCase() + x.slice(1) : x;
+    c.rates.forEach(r => out.push(`- ${[r.name, r.length].filter(Boolean).join(', ')}${r.desc ? ', ' + lc(r.desc) : ''}: ${money(r.price)}`));
+    out.push('');
+  }
+  if (c.showPlans && c.plans.length) {
+    out.push(c.plansTitle);
+    c.plans.forEach(p => {
+      const save = (num(p.value) !== '' && num(p.price) !== '') ? Number(p.value) - Number(p.price) : 0;
+      out.push(`- ${p.name}, ${money(p.price)} a month: ${p.lines.filter(l => l.trim()).join(', ')}${save > 0 ? ` (rate-card value ${money(p.value)})` : ''}`);
+    });
+    if (c.showDiscount && c.discount) out.push(`- ${c.discount}`);
+    out.push('');
+  } else if (c.showDiscount && c.discount) { out.push(c.discount, ''); }
+  if (c.terms) out.push(c.terms);
+  return out.join('\n').trim();
+}
+async function copyText() {
+  const t = asText();
+  try { await navigator.clipboard.writeText(t); toast('Copied. Paste it into your email.'); }
+  catch (e) { const ta = document.createElement('textarea'); ta.value = t; document.body.appendChild(ta); ta.select();
+    try { document.execCommand('copy'); toast('Copied. Paste it into your email.'); } catch (e2) { prompt('Copy this text:', t); } ta.remove(); }
+}
+
+/* ---------- editor ---------- */
+function field(label, key, type = 'text', extra = '') {
+  const v = card[key] ?? '';
+  if (type === 'textarea') return `<label>${label}</label><textarea data-k="${key}" ${extra}>${esc(v)}</textarea>`;
+  return `<label>${label}</label><input type="${type}" data-k="${key}" value="${esc(v)}" ${extra}>`;
+}
+function check(label, key) { return `<label class="check"><input type="checkbox" data-k="${key}" ${card[key] ? 'checked' : ''}> ${label}</label>`; }
+
+function renderEditor() {
+  const e = document.getElementById('editor');
+  const pre = Object.keys(presets()).sort();
+  let h = `<h1>QZI RATE CARD GENERATOR</h1><div class="sub">Type on the left, the card updates on the right. Works offline.</div>
+  <div class="bar">
+    <button class="primary" data-act="pdf">Save as PDF</button>
+    <button data-act="copy">Copy as email bullets</button>
+  </div>
+  <details open><summary>Saved cards</summary><div class="body">
+    <div class="row2"><div>${pre.length ? `<label>Open a saved card</label><select id="presetSel"><option value="">Choose…</option>${pre.map(n => `<option>${esc(n)}</option>`).join('')}</select>` : '<label>No saved cards yet</label>'}</div>
+    <div><label>&nbsp;</label><button data-act="save" style="width:100%">Save this card</button></div></div>
+    <div class="bar" style="margin-top:8px">
+      ${pre.length ? '<button class="mini danger" data-act="delpreset">Delete selected</button>' : ''}
+      <button class="mini" data-act="export">Backup to file</button>
+      <button class="mini" data-act="import">Load from file</button>
+      <button class="mini" data-act="new">New blank card</button>
+      <button class="mini" data-act="reset">Reset to QZI standard card</button>
+    </div>
+    <div class="hint">Saved cards stay in this browser on this PC. Use "Backup to file" now and then, so clearing browser data can't lose them.</div>
+  </div></details>
+
+  <details open><summary>Header</summary><div class="body">
+    ${field('Small line on top', 'kicker')}
+    ${field('Title', 'title')}
+    <div class="row2"><div>${field('Prepared for (client)', 'client', 'text', 'placeholder="e.g. The Universal Soul Company"')}</div><div>${field('Date', 'date')}</div></div>
+    <label>Currency</label><select data-k="currency">${Object.keys(CURRENCIES).map(k => `<option ${card.currency === k ? 'selected' : ''}>${k}</option>`).join('')}</select>
+    ${field('Intro line', 'intro', 'textarea')}
+  </div></details>
+
+  <details open><summary>Single rates (${card.rates.length})</summary><div class="body">
+    ${check('Show single rates', 'showRates')}
+    ${field('Section title', 'ratesTitle')}
+    ${card.rates.map((r, i) => `<div class="item">
+      <div class="head"><span class="t">Rate ${i + 1}</span>
+        <button class="mini" data-act="rup" data-i="${i}" title="Move up">↑</button>
+        <button class="mini" data-act="rdown" data-i="${i}" title="Move down">↓</button>
+        <button class="mini danger" data-act="rdel" data-i="${i}" title="Delete">✕</button></div>
+      <label>Name</label><input data-r="${i}" data-f="name" value="${esc(r.name)}">
+      <div class="row2"><div><label>Length</label><input data-r="${i}" data-f="length" value="${esc(r.length)}"></div>
+      <div><label>Price</label><input data-r="${i}" data-f="price" inputmode="decimal" value="${esc(r.price)}"></div></div>
+      <label>What's included</label><input data-r="${i}" data-f="desc" value="${esc(r.desc)}">
+    </div>`).join('')}
+    <button data-act="radd">+ Add a rate</button>
+  </div></details>
+
+  <details open><summary>Monthly plans (${card.plans.length})</summary><div class="body">
+    ${check('Show plans', 'showPlans')}
+    ${field('Section title', 'plansTitle')}
+    ${card.plans.map((p, i) => {
+      const save = (num(p.value) !== '' && num(p.price) !== '') ? Number(p.value) - Number(p.price) : null;
+      return `<div class="item">
+      <div class="head"><span class="t">Plan ${i + 1}</span>
+        <button class="mini" data-act="pup" data-i="${i}" title="Move up">↑</button>
+        <button class="mini" data-act="pdown" data-i="${i}" title="Move down">↓</button>
+        <button class="mini danger" data-act="pdel" data-i="${i}" title="Delete">✕</button></div>
+      <div class="row2"><div><label>Name</label><input data-p="${i}" data-f="name" value="${esc(p.name)}"></div>
+      <div><label>Tagline</label><input data-p="${i}" data-f="tag" value="${esc(p.tag)}"></div></div>
+      <label>Features (one per line)</label><textarea data-p="${i}" data-f="lines" rows="${Math.max(3, p.lines.length + 1)}">${esc(p.lines.join('\n'))}</textarea>
+      <div class="row2"><div><label>Plan price / month</label><input data-p="${i}" data-f="price" inputmode="decimal" value="${esc(p.price)}"></div>
+      <div><label>Rate-card value (optional)</label><input data-p="${i}" data-f="value" inputmode="decimal" value="${esc(p.value)}"></div></div>
+      <div class="hint" data-save="${i}">${save > 0 ? 'Shows "You save ' + esc(money(save)) + '"' : 'Add a value higher than the price to show "You save".'}</div>
+      <label class="check"><input type="checkbox" data-p="${i}" data-f="highlight" ${p.highlight ? 'checked' : ''}> Highlight this plan (gold border)</label>
+    </div>`; }).join('')}
+    <button data-act="padd">+ Add a plan</button>
+  </div></details>
+
+  <details open><summary>Discount, terms and contact</summary><div class="body">
+    ${check('Show discount note', 'showDiscount')}
+    ${field('Discount note', 'discount', 'textarea')}
+    ${field('Terms (small print)', 'terms', 'textarea')}
+    ${field('Sign-off', 'signoff')}
+    <div class="row2"><div>${field('WhatsApp', 'whatsapp')}</div><div>${field('Email', 'email')}</div></div>
+    ${field('Portfolio link', 'portfolio')}
+  </div></details>`;
+  e.innerHTML = h;
+}
+
+/* ---------- events ---------- */
+document.addEventListener('input', ev => {
+  const t = ev.target;
+  if (t.dataset.k) { card[t.dataset.k] = t.type === 'checkbox' ? t.checked : t.value; }
+  else if (t.dataset.r !== undefined) { const r = card.rates[+t.dataset.r]; r[t.dataset.f] = t.dataset.f === 'price' ? num(t.value) : t.value; }
+  else if (t.dataset.p !== undefined) {
+    const p = card.plans[+t.dataset.p], f = t.dataset.f;
+    if (f === 'lines') p.lines = t.value.split('\n');
+    else if (f === 'highlight') p.highlight = t.checked;
+    else if (f === 'price' || f === 'value') p[f] = num(t.value);
+    else p[f] = t.value;
+    const hint = document.querySelector(`[data-save="${t.dataset.p}"]`);
+    if (hint) { const s = (num(p.value) !== '' && num(p.price) !== '') ? Number(p.value) - Number(p.price) : null;
+      hint.textContent = s > 0 ? `Shows "You save ${money(s)}"` : 'Add a value higher than the price to show "You save".'; }
+  } else return;
+  renderPreview();
+});
+document.addEventListener('change', ev => { if (ev.target.dataset.k === 'currency') { renderEditor(); renderPreview(); }
+  if (ev.target.id === 'presetSel' && ev.target.value) { const p = presets()[ev.target.value]; if (p) { card = normalise(JSON.parse(JSON.stringify(p))); renderEditor(); renderPreview(); toast('Opened "' + ev.target.value + '"'); document.getElementById('presetSel').value = ''; } } });
+
+function move(arr, i, d) { const j = i + d; if (j < 0 || j >= arr.length) return; [arr[i], arr[j]] = [arr[j], arr[i]]; }
+document.addEventListener('click', ev => {
+  const b = ev.target.closest('button[data-act]'); if (!b) return;
+  const a = b.dataset.act, i = +b.dataset.i;
+  switch (a) {
+    case 'pdf': window.print(); return;
+    case 'copy': copyText(); return;
+    case 'radd': card.rates.push({ name:'New item', length:'', desc:'', price:'' }); break;
+    case 'rdel': if (!confirm('Delete this rate?')) return; card.rates.splice(i, 1); break;
+    case 'rup': move(card.rates, i, -1); break;
+    case 'rdown': move(card.rates, i, 1); break;
+    case 'padd': card.plans.push({ name:'New plan', tag:'', lines:['Feature'], price:'', value:'', highlight:false }); break;
+    case 'pdel': if (!confirm('Delete this plan?')) return; card.plans.splice(i, 1); break;
+    case 'pup': move(card.plans, i, -1); break;
+    case 'pdown': move(card.plans, i, 1); break;
+    case 'save': {
+      const name = prompt('Name for this card (e.g. "Sara – Universal Soul, Nov 2026"):', card.client || '');
+      if (!name) return; const all = presets(); all[name] = card;
+      if (safeSet(STORE_KEY, JSON.stringify(all))) toast('Saved "' + name + '"'); else alert('This browser blocked saving. Use "Backup to file" instead.');
+      break; }
+    case 'delpreset': { const sel = document.getElementById('presetSel'); const n = sel && sel.value;
+      if (!n) { alert('Choose a saved card in the list first.'); return; }
+      if (!confirm('Delete saved card "' + n + '"?')) return; const all = presets(); delete all[n]; safeSet(STORE_KEY, JSON.stringify(all)); toast('Deleted'); break; }
+    case 'export': {
+      const data = { app:'qzi-rate-card', version:1, current: card, saved: presets() };
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type:'application/json' });
+      const a2 = document.createElement('a'); a2.href = URL.createObjectURL(blob);
+      a2.download = 'QZI-rate-cards-backup-' + new Date().toISOString().slice(0,10) + '.json'; a2.click();
+      setTimeout(() => URL.revokeObjectURL(a2.href), 2000); toast('Backup file downloaded'); return; }
+    case 'import': document.getElementById('importFile').click(); return;
+    case 'new': if (!confirm('Start a blank card? (Unsaved changes on this card will be lost.)')) return;
+      card = normalise({ kicker:'QZI Labs · Rate card', title:'Rate card', intro:'', rates:[], plans:[], terms:'', discount:'', showDiscount:false }); break;
+    case 'reset': if (!confirm('Reset to the QZI standard card? (Unsaved changes will be lost.)')) return; card = defaultCard(); break;
+    default: return;
+  }
+  renderEditor(); renderPreview();
+});
+document.getElementById('importFile').addEventListener('change', async ev => {
+  const f = ev.target.files[0]; if (!f) return;
+  try {
+    const data = JSON.parse(await f.text());
+    if (data && data.app === 'qzi-rate-card') {
+      const all = Object.assign(presets(), data.saved || {}); safeSet(STORE_KEY, JSON.stringify(all));
+      if (data.current) card = normalise(data.current);
+      toast('Loaded ' + Object.keys(data.saved || {}).length + ' saved cards');
+    } else { card = normalise(data); toast('Card loaded'); }
+    renderEditor(); renderPreview();
+  } catch (e) { alert('That file is not a QZI rate card backup.'); }
+  ev.target.value = '';
+});
+
+renderEditor(); renderPreview();
+</script>
+</body>
+</html>
