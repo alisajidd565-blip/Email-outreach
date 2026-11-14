@@ -24,3 +24,8 @@ No automated follow-ups to this domain; Ali handles it directly.
 "It's free" followed by "We can also share our price card" read as a contradiction to her. Proposed to Ali: change
 the closing line of outreach emails to "If you want more after that, we can share our price card for campaigns and
 monthly content." Not changed until Ali agrees (the current line is his standing rule).
+
+## Update (14 Nov, late)
+Gmail shows our reply with labels SENT + TRASH (draft gone from Drafts), so it appears to have been sent from the
+Gmail app. The whole thread (our first email, Sara's reply, our reply) was then in Trash. Claude could not restore it:
+the Gmail connector lacks the permission for "untrash". Ali to restore it by hand (Trash > open thread > Move to Inbox).
