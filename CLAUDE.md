@@ -12,7 +12,12 @@
 ## Standing preferences
 - Ali's tone: direct senior advisor, simple English, bullets.
 - No unsubscribe / opt-out line in any email.
-- End outreach emails with: "We can also share our price card whenever you like."
+- Demo + price card wording (Ali, 14 Nov 2026; replaces "We can also share our price card whenever you like"):
+  Sara (Universal Soul Company) read "it's free" + "we can share our price card" as a contradiction. From now on every
+  outreach email (KISS and IDEA, first emails and follow-ups) frames the free ad ONLY as a demo for deciding on future
+  collaboration, and offers the price card only on request. Use this line, last before the signature:
+  "The ad is a free demo, so you can see our work before deciding on any future collaboration. It's completely free as our pitch, and you're welcome to post it. If our price card would help you decide, just ask."
+  Never offer the price card unprompted, never say "we can also share our price card" in outreach.
 - Sample films: Atlas Original + The Beast (not Bad Influence) in new emails.
 - Maison Yusif award wording: "2026 Fragrance Brand of the Year at the Ghana Beauty Awards" (never "No. 1 brand").
 - About 50 sends a day; check bounces before each batch.
@@ -21,7 +26,7 @@
 ## Outreach split: 50% KISS (Ali, 13 Nov 2026) — always applies
 - Every outreach batch (first emails and follow-ups) is split 50/50:
   - Half "KISS" (keep it simple and straight): 1-2 short paragraphs, plain clean words, one direct offer of a single
-    free ad. No film concept, no story, no bullet list. Still ends with the price card line, no opt-out line.
+    free ad. No film concept, no story, no bullet list. Still ends with the demo line (above), no opt-out line.
   - Half the "one film idea" format below.
 - Alternate by lead (A, B, A, B...) inside each batch, not by brand type, so the two halves are comparable.
 - Tag every lead in the send log as KISS or IDEA, so reply rates can be compared.
@@ -29,17 +34,16 @@
   Subject: A free ad for {Brand}
   Hi {Name},
   I'm Ali from QZI Labs. We make cinematic AI ads for independent brands, and I'd like to make one for {product},
-  free: 15 seconds, original music, your real {bottle/piece/product} rebuilt in 3D. If you like it, post it.
-  If not, it costs you nothing.
+  free: 15 seconds, original music, your real {bottle/piece/product} rebuilt in 3D.
   Shall I make it? Here's one we made for Maison Yusif: {The Beast link}
-  We can also share our price card whenever you like.
+  The ad is a free demo, so you can see our work before deciding on any future collaboration. It's completely free as our pitch, and you're welcome to post it. If our price card would help you decide, just ask.
   Ali Sajid / QZI Labs
 
 ## Outreach email format (from 12 Nov 2026)
 Use the "one film idea" format for first emails and follow-ups: (1) "I had an idea for {product} and wanted to ask
 before I make anything." (2) one specific film idea in 2-3 sentences from their own story. (3) 15 seconds, original
-music, real product rebuilt in 3D, free, theirs to post or not. (4) one proof link (The Beast, Maison Yusif award).
-(5) "Shall I make it? A simple yes or no is all I need." (6) price card line. Keep it near 110 words.
+music, real product rebuilt in 3D. (4) one proof link (The Beast, Maison Yusif award).
+(5) "Shall I make it? A simple yes or no is all I need." (6) the demo line (above). Keep it near 110 words.
 Full example: QZI-send-logs/2026-11-12-fu50-concept-pitch.md.
 
 ## Where things are

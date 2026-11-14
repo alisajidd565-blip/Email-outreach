@@ -52,8 +52,9 @@ Original music (from 2026-10-21, in every email): we compose music for each
 ad, themed to that ad, so there are no copyright issues. Standard line:
 "Every ad also gets its own original music, composed for that ad and themed
 to it, so there are no copyright issues."
-Price card line (from 2026-10-22, last line before the signature):
-"We can also share our price card with you whenever you like."
+Demo line (from 2026-11-14, replaces the old price card line; last line before the signature):
+"The ad is a free demo, so you can see our work before deciding on any future collaboration. It's completely free as our pitch, and you're welcome to post it. If our price card would help you decide, just ask."
+Offer the price card only when asked. See CLAUDE.md.
 Declined, revisit later: elyondubai.com (Nov 2026, "keep your details on file"). Declined: parfumsdelmar.com (8 Nov 2026, "NO - but many thanks"; they make their own AI video). Do not contact again. Do-not-contact (asked to stop): zariya.ie, mojobeard.com, reminiscence.mc, emilelise.com, stgilesfinefragrance.com, derduft.com, fleuritparfums.com (declined: "We do not use AI"). Bounced/blocked (do not retry): scrubd.com, tempusvitae (Yahoo), veigelperfumes.com (554 spam block), noorson, lecmo, soul-of-mine.com (gmail does not exist), riteofway.co (support@ does not exist), oscarlondon.com (info@ closed by Nov 2026), acquadisardegna.eu (permanent bounce, Nov 2026), ameenahoud.com (clientserviceteam@ does not exist), ramonmolvizar.com (sales@ inbox full, 452), premierenote-parfum.fr (contact@ not found), maisonsolis.com (help@ not found, 13 Nov 2026). No follow-ups to onefragrancehouse (active client conversation, Ali handles directly). No follow-ups to theuniversalsoulcompany.com (Sara replied 14 Nov, warm lead; Ali handles directly). No follow-ups to scentofafrica.com (Ali, 8 Nov: "don't do Scent of Africa"; Ali handles it).
 Meta ads: mention ONLY as one small, optional line near the end of the email
 (e.g. "If it ever helps, we can also run your Meta ads. Completely optional.").
