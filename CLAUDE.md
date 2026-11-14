@@ -51,3 +51,4 @@ Full example: QZI-send-logs/2026-11-12-fu50-concept-pitch.md.
 - known_domains.txt: every domain already contacted or probed (CRLF line endings).
 - QZI-send-logs/: one log per batch or event.
 - PRICE-CARD.md and proposals/scent-of-africa/: current rates and the Scent of Africa proposal.
+- tools/rate-card-generator/: Ali's offline rate card app (one HTML file); its standard card = the Nov 2026 rates.
