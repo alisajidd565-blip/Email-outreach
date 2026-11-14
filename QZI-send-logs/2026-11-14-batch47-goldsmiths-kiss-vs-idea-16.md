@@ -30,4 +30,7 @@ Samuel Waterhouse) and went to KISS, so the split stays 8/8.
 | KISS | 18 | 0 | 0 |
 | IDEA | 18 | 0 | 0 |
 
+Update: first IDEA reply came from batch 45 (The Universal Soul Company, 13 Nov, sent before tagging).
+Running total of positive replies since the new formats: IDEA 1, KISS 0.
+
 Goldsmiths queue left in scratchpad: about 31 makers with email, mostly silversmiths and personal webmail addresses.
