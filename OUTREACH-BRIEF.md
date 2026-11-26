@@ -181,3 +181,16 @@ and log sends, load QZI-OUTREACH-SCRIPT.md in the same folder and follow it.
   `email` / `email_source` / `status` columns) and `QZI-prospect-list.csv`
   (older, bigger, no email column). Dated send logs live under
   `QZI-send-logs/`.
+
+## Rule update 2026-11-26 (from Ali)
+- Never write "original music". Say original AND trending music, e.g. "set to original or
+  trending music" / "with original and trending music".
+- New portfolio film: Reborn, for Maison Yusif (Drive file REBORN_MaisonYusif-1080x1920.mp4):
+  https://drive.google.com/file/d/1Q8uu4Lu6JueD2w3q3XGX0N7OXtr3Mdaa/view?usp=sharing
+  Use it in place of The Beast or Bad Influence in some emails (rotate).
+- Current cold template (Nov 2026): hook on their product, two film links, "used to cost a
+  studio and thousands, now very affordable", free first ad offer, "We can also share our price
+  card whenever you like.", signed Ali Sajid / QZI Labs / WhatsApp: +92 328 1870330.
+- Gmail is the source of truth for dedup: many brands emailed in Oct/Nov are NOT in the CSVs.
+  Check with to:(domain1 OR domain2 ...) in groups of about 12; a long bare-domain OR query
+  matches everything and is useless.
