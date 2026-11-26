@@ -56,7 +56,10 @@ Links rotation as in batch 15 (A = Beast + Bad Influence, B = Beast + Reborn, C 
 
 All 40 sent 2026-11-26 as new threads.
 
-## Verified but NOT yet emailed (next batch, already Gmail-checked 2026-11-26)
+## Part 2: sent 2026-11-26 (Ali: "send the remaining 24 too")
+All below sent, same template and link rotation, original-or-trending music wording.
+Moseha SKIPPED: already emailed earlier at mosehaparfums@gmail.com (found by brand-name search).
+
 Andreea Rada (andreeagocan@gmail.com), Eau De Moe (sam@eaudemoe.com), Insider Parfums
 (team@insiderparfums.com), Gerini (info@geriniperfumes.com), Iggywoo (shop@iggywoo.com), Maysson
 (info@maysson.com), Moseha (info@moseha.com), Moudon (info@moudonperfumes.com), Mystery Modern Mark
